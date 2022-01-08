@@ -1,0 +1,126 @@
+
+/* Class = "UILabel"; text = "Stage score"; ObjectID = "1HY-Bk-RZB"; */
+"1HY-Bk-RZB.text" = "Pontuação";
+
+/* Class = "UIButton"; normalTitle = "Next stage"; ObjectID = "2aw-6A-A7h"; */
+"2aw-6A-A7h.normalTitle" = "Próxima fase";
+
+/* Class = "UILabel"; text = "Stage 01"; ObjectID = "2gd-7X-GFc"; */
+"2gd-7X-GFc.text" = "Fase 01";
+
+/* Class = "UIButton"; normalTitle = "Main menu"; ObjectID = "6WC-7d-90R"; */
+"6WC-7d-90R.normalTitle" = "Menu principal";
+
+/* Class = "UILabel"; text = "10000"; ObjectID = "8Ic-E1-tU4"; */
+"8Ic-E1-tU4.text" = "10000";
+
+/* Class = "UIButton"; normalTitle = "GAME LEVELS"; ObjectID = "BxQ-eJ-GeW"; */
+"BxQ-eJ-GeW.normalTitle" = "NÍVEIS";
+
+/* Class = "UILabel"; text = "Level --"; ObjectID = "C7o-yk-Tjh"; */
+"C7o-yk-Tjh.text" = "Nível --";
+
+/* Class = "UILabel"; text = "Level 01"; ObjectID = "DSM-wL-utq"; */
+"DSM-wL-utq.text" = "Nível 01";
+
+/* Class = "UILabel"; text = "12345"; ObjectID = "Due-1r-IFL"; */
+"Due-1r-IFL.text" = "12345";
+
+/* Class = "UILabel"; text = "Stage --/--"; ObjectID = "Ecp-6X-7Pq"; */
+"Ecp-6X-7Pq.text" = "Fase --/--";
+
+/* Class = "UIButton"; normalTitle = "SOUND EFFECTS: ON"; ObjectID = "Esu-Vq-DMq"; */
+"Esu-Vq-DMq.normalTitle" = "EFEITOS SONOROS: SIM";
+
+/* Class = "UILabel"; text = "Missed blocks"; ObjectID = "Fh2-CZ-RN3"; */
+"Fh2-CZ-RN3.text" = "Perdidos";
+
+/* Class = "UIButton"; normalTitle = "MULTIPLAYER"; ObjectID = "JWq-f1-ilz"; */
+"JWq-f1-ilz.normalTitle" = "MULTIPLAYER";
+
+/* Class = "UILabel"; text = "Right blocks"; ObjectID = "Jbm-La-hFY"; */
+"Jbm-La-hFY.text" = "Certos";
+
+/* Class = "UIButton"; normalTitle = "PRACTICE"; ObjectID = "LUL-GJ-zM0"; */
+"LUL-GJ-zM0.normalTitle" = "PRATICAR";
+
+/* Class = "UIButton"; normalTitle = "START GAME"; ObjectID = "Lri-8H-ltx"; */
+"Lri-8H-ltx.normalTitle" = "INICIAR JOGO";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "MnO-gf-b5I"; */
+"MnO-gf-b5I.text" = "0";
+
+/* Class = "UILabel"; text = "Wrong blocks"; ObjectID = "RCh-Qj-DSA"; */
+"RCh-Qj-DSA.text" = "Errados";
+
+/* Class = "UILabel"; text = "10000"; ObjectID = "RHO-I9-cL1"; */
+"RHO-I9-cL1.text" = "10000";
+
+/* Class = "UILabel"; text = "10000"; ObjectID = "Syd-ac-40b"; */
+"Syd-ac-40b.text" = "10000";
+
+/* Class = "UILabel"; text = "Time deduction"; ObjectID = "U70-9y-npi"; */
+"U70-9y-npi.text" = "Desconto por tempo";
+
+/* Class = "UILabel"; text = "10000"; ObjectID = "UqZ-my-YNW"; */
+"UqZ-my-YNW.text" = "10000";
+
+/* Class = "UILabel"; text = "Level 01"; ObjectID = "Y9P-C4-Q3j"; */
+"Y9P-C4-Q3j.text" = "Nível 01";
+
+/* Class = "UILabel"; text = "12:00"; ObjectID = "YPe-od-6J3"; */
+"YPe-od-6J3.text" = "12:00";
+
+/* Class = "UIButton"; normalTitle = "INSTRUCTIONS"; ObjectID = "a63-sf-dx3"; */
+"a63-sf-dx3.normalTitle" = "COMO JOGAR?";
+
+/* Class = "UILabel"; text = "-100000"; ObjectID = "bdK-8e-lyf"; */
+"bdK-8e-lyf.text" = "-100000";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "bnT-tk-t4m"; */
+"bnT-tk-t4m.text" = "0";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "gKg-f8-qa7"; */
+"gKg-f8-qa7.text" = "0";
+
+/* Class = "UINavigationItem"; title = "Available players"; ObjectID = "jNg-oy-zhO"; */
+"jNg-oy-zhO.title" = "Jogadores disponíveis";
+
+/* Class = "UILabel"; text = "Total blocks"; ObjectID = "jfa-E8-Rdt"; */
+"jfa-E8-Rdt.text" = "Total de blocos";
+
+/* Class = "UILabel"; text = "Perfection  bonus"; ObjectID = "mjO-JG-Ldq"; */
+"mjO-JG-Ldq.text" = "Bonus";
+
+/* Class = "UIButton"; normalTitle = "Try again"; ObjectID = "myl-kT-Vck"; */
+"myl-kT-Vck.normalTitle" = "Tentar novamente";
+
+/* Class = "UILabel"; text = "10"; ObjectID = "nO5-Sh-erB"; */
+"nO5-Sh-erB.text" = "10";
+
+/* Class = "UILabel"; text = "Total deductions"; ObjectID = "p7Y-PA-KLt"; */
+"p7Y-PA-KLt.text" = "Desconto total";
+
+/* Class = "UILabel"; text = "10000"; ObjectID = "qhP-Im-Sot"; */
+"qhP-Im-Sot.text" = "10000";
+
+/* Class = "UINavigationItem"; title = "Game Levels"; ObjectID = "qzd-bJ-UTW"; */
+"qzd-bJ-UTW.title" = "Níveis";
+
+/* Class = "UILabel"; text = "0000000"; ObjectID = "s0o-td-aoc"; */
+"s0o-td-aoc.text" = "0000000";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "sew-Me-xnc"; */
+"sew-Me-xnc.text" = "0";
+
+/* Class = "UILabel"; text = "10000"; ObjectID = "tMU-VX-qb8"; */
+"tMU-VX-qb8.text" = "10000";
+
+/* Class = "UILabel"; text = "Score 0000000"; ObjectID = "tqr-e7-T05"; */
+"tqr-e7-T05.text" = "Placar 0000000";
+
+/* Class = "UIButton"; normalTitle = "LEVEL CREATOR"; ObjectID = "uMd-Ie-gWd"; */
+"uMd-Ie-gWd.normalTitle" = "CRIADOR DE NÍVEIS";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "wPO-5C-TcL"; */
+"wPO-5C-TcL.text" = "Title";

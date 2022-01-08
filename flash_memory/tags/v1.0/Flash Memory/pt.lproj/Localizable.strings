@@ -1,0 +1,227 @@
+/* No comment provided by engineer. */
+"difficulty.Fish" = "Peixe";
+
+/* No comment provided by engineer. */
+"difficulty.Dolphin" = "Golfinho";
+
+/* No comment provided by engineer. */
+"difficulty.Human" = "Humano";
+
+/* No comment provided by engineer. */
+"difficulty.Elephant" = "Elefante";
+
+/* No comment provided by engineer. */
+"\n\nEach right block worth" = "\n\nCada bloco certo vale";
+
+/* No comment provided by engineer. */
+"Accept" = "Aceitar";
+
+/* No comment provided by engineer. */
+"BACK" = "VOLTAR";
+
+/* No comment provided by engineer. */
+"MAIN MENU" = "MENU JOGO";
+
+/* No comment provided by engineer. */
+"But you can do better!" = "Mas você pode fazer melhor!";
+
+/* No comment provided by engineer. */
+"But you do even better!" = "Mas você pode fazer ainda melhor!";
+
+/* No comment provided by engineer. */
+"Connecting to" = "Conectando a";
+
+/* No comment provided by engineer. */
+"CONTRATULATIONS!" = "PARABÉNS!";
+
+/* No comment provided by engineer. */
+"Decline" = "Recusar";
+
+/* No comment provided by engineer. */
+"Difficulty" = "Dificuldade";
+
+/* No comment provided by engineer. */
+"GOT IT" = "ENTENDI";
+
+/* No comment provided by engineer. */
+"Great job!" = "Ótimo trabalho!";
+
+/* No comment provided by engineer. */
+"How about trying again?" = "Que tal tentar outra vez?";
+
+/* No comment provided by engineer. */
+"instructions-step0" = "Treinar sua memória com FlashMem é muito fácil.\n\nAqui vão algumas instruções que podem te ajudar a ter uma melhor experiência durante o jogo.\n\nA primeira coisa que você deve fazer é tocar em INICIAR JOGO para carregar a primeira fase da carreira.";
+
+/* No comment provided by engineer. */
+"instructions-step1" = "O jogo inicia com o piscar de um grupo de blocos que compõe um caminho que deverá ser redesenhado.\n\nQuanto maior o nível do jogo mais rápido eles irão desaparecer. Então não perca a exibição inicial ou terá que começar novamente.";
+
+/* No comment provided by engineer. */
+"instructions-step2" = "Quando todos os blocos sumirem completamente o primeiro e o último bloco do caminho começarão a piscar.";
+
+/* No comment provided by engineer. */
+"instructions-step3" = "Mas fique atento! Nos níveis intermediários apenas o primeiro bloco pisca.\n\nNos níveis avançados nenhum bloco irá piscar e você pode começar a desenhar assim que todos sumirem.";
+
+/* No comment provided by engineer. */
+"instructions-step4" = "Logo após os blocos da ponta começarem a piscar (ou não!) então você já pode começar a redesenhar o caminho.\n\nNão faz diferença de qual ponta você começa. Você pode iniciar o desenho de qualquer uma das pontas desde que não erre e perca o mínimo possível de blocos.";
+
+/* No comment provided by engineer. */
+"instructions-step5" = "Uma vez iniciado o desenho, vá até o fim!!\n\nQuando desenhar errado você ainda pode desfazer o desenho voltando pelo mesmo caminho ao contrário sem precisar recomeçar a fase.\n\nAssim que parar de desenhar sua pontuação será computada. Não se preocupe, você poderá sempre recomeçar a fase se não se sair muito bem...";
+
+/* No comment provided by engineer. */
+"instructions-step7" = "É SIMPLES ASSIM!\n\nSe quiser, você pode praticar antes de começar a jogar pra valer.\n\nNo modo PRÁTICA você pode escolher entre três níveis de dificuldade: Memória de peixe, golfinho, humano e memória de elefante.";
+
+/* No comment provided by engineer. */
+"Inviting " = "Convidando ";
+
+/* No comment provided by engineer. */
+"Level" = "Nível";
+
+/* No comment provided by engineer. */
+"Me" = "Eu";
+
+/* No comment provided by engineer. */
+"Multiplayer request" = "Convite de jogo";
+
+/* No comment provided by engineer. */
+"No player visible" = "Nenhum jogador visível";
+
+/* No comment provided by engineer. */
+"Not bad..." = "Nada mal...";
+
+/* No comment provided by engineer. */
+"Now try again without missing a block." = "Agora tente novamente sem errar nenhum bloco.";
+
+/* No comment provided by engineer. */
+"OFF" = "NÃO";
+
+/* No comment provided by engineer. */
+"Oh boy..." = "Eita...";
+
+/* No comment provided by engineer. */
+"ON" = "SIM";
+
+/* No comment provided by engineer. */
+"PERFECT!" = "PERFEITO!";
+
+/* No comment provided by engineer. */
+"player" = "jogador";
+
+/* No comment provided by engineer. */
+"players" = "jogadores";
+
+/* No comment provided by engineer. */
+"online player" = "jogador online";
+
+/* No comment provided by engineer. */
+"online players" = "jogadores online";
+
+/* No comment provided by engineer. */
+"PRACTICE" = "PRATICAR";
+
+/* No comment provided by engineer. */
+"\n\nEach second count, so don't take much long or you lose points!\nYou also get 10% bonus if you don't miss a single block." = "\n\nCada segundo conta, então não demore muito ou irá perder pontos!\nVocê também ganha 10% de bonus se acertar o caminho todo sem errar nenhum bloco.";
+
+/* No comment provided by engineer. */
+"\nMissed blocks discount" = "\nBlocos perdidos descontam";
+
+/* No comment provided by engineer. */
+"\nWrong blocks discount" = "\nBlocos errados descontam";
+
+/* No comment provided by engineer. */
+"Score" = "Placar";
+
+/* No comment provided by engineer. */
+"SOUND EFFECTS: " = "EFEITOS SONOROS: ";
+
+/* No comment provided by engineer. */
+"SOUND EFFECTS: OFF" = "EFEITOS SONOROS: NÃO";
+
+/* No comment provided by engineer. */
+"SOUND EFFECTS: ON" = "EFEITOS SONOROS: SIM";
+
+/* No comment provided by engineer. */
+"Stage" = "Fase";
+
+/* No comment provided by engineer. */
+"Stage clear" = "Nível concluído";
+
+/* No comment provided by engineer. */
+"TRY AGAIN" = "NOVAMENTE";
+
+/* No comment provided by engineer. */
+"TRY IT" = "TENTAR";
+
+/* No comment provided by engineer. */
+"wants to play with you" = "está te convidando para jogar.";
+
+/* No comment provided by engineer. */
+"Well done!" = "Foi bem!";
+
+/* No comment provided by engineer. */
+"You really got talent!" = "Você tem talento!";
+
+/* No comment provided by engineer. */
+"You score was" = "Sua pontuação foi";
+
+/* No comment provided by engineer. */
+"You've completed all stages. Try starting over reaching 3 stars in all levels." = "Você completou todos os estágios. Agora tente conseguir 3 estrelas em todos os níveis.";
+
+/* No comment provided by engineer. */
+"Feature unavailable" = "Função indisponível";
+
+/* No comment provided by engineer. */
+"Multiplayer mode is only available in the full version of the game.\nWould you like to upgrade?" = "O modo multiplayer só está disponível na versão completa do jogo\nGostaria de atualizar?";
+
+/* No comment provided by engineer. */
+"Upgrade" = "Atualizar";
+
+/* No comment provided by engineer. */
+"Not now" = "Agora não";
+
+/* No comment provided by engineer. */
+"Level unavailable" = "Fase insidponível";
+
+/* No comment provided by engineer. */
+"This level is only available in the full version of the game.\nWould you like to upgrade?" = "Esta fase só está disponível na versão completa do jogo\nGostaria de atualizar?";
+
+/* No comment provided by engineer. */
+"Level locked" = "Fase bloqueada";
+
+/* No comment provided by engineer. */
+"This stage is currently locked.\nTo unlock it play all previous stages before." = "Esta fase ainda não foi desbloqueada.\nPara desbloquear jogue todos os níveis antes dela.";
+
+/* No comment provided by engineer. */
+"You've completed all stages of LITE VERSION.\nWould you like to upgrade to full version and unlock all levels?" = "Você completou todas as fases da versão grauita.\nGostaria de atualizar para a versão completa e desbloquear todas as fases?";
+
+/* No comment provided by engineer. */
+"Local players" = "Jogadores próximos";
+
+/* No comment provided by engineer. */
+"Online players" = "Jogadores online";
+
+/* No comment provided by engineer. */
+"Start online match" = "Iniciar partida online";
+
+/* No comment provided by engineer. */
+"Starting online match" = "Iniciando partida online";
+
+/* No comment provided by engineer. */
+"Online session" = "Partida online";
+
+/* No comment provided by engineer. */
+"Online sessions work much better when push notifications are enable. Please consider enable Push Notification for a better online match experience." = "Partidas online funcionam muito melhor quando as notificações PUSH estão habilitadas. Considere habilitar as notificações para uma melhor eperiência de jogo online";
+
+/* No comment provided by engineer. */
+"Starting online session. Connecting to server..." = "Iniciando sessão online. Conectando com o servidor...";
+
+/* No comment provided by engineer. */
+"Error connecting to server. Please try again later." = "Não foi possível iniciar uma sessão online. Tente novamente mais tarde.";
+
+/* No comment provided by engineer. */
+"closed multiplayer session." = "fechou a sessão multiplayer.";
+
+/* No comment provided by engineer. */
+"Multiplayer closed" = "Sessão encerrada";
+
+/* No comment provided by engineer. */
+"\nDo you want start a new match with other player?" = "\nDeseja iniciar uma partida com outro jogador?";

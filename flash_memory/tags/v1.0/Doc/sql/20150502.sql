@@ -1,0 +1,1 @@
+ALTER TABLE device ADD COLUMN bundle_name VARCHAR(16) DEFAULT 'FlashMem';

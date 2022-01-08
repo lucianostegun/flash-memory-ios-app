@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4DF53DC5-F557-46CB-9911-AD30682A9E56</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>531c19ac-415f-4540-83aa-1ca632b0dbdf++4350</key>
+		<string>http://svn.stegun.com/ios/tags/flash_memory/v1.0</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Timesheet/Timesheet.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>531c19ac-415f-4540-83aa-1ca632b0dbdf++4350</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>531c19ac-415f-4540-83aa-1ca632b0dbdf++4350</key>
+		<string>http://svn.stegun.com/ios</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://svn.stegun.com/ios/tags/flash_memory/v1.0/Timesheet/Timesheet.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>531c19ac-415f-4540-83aa-1ca632b0dbdf++4350</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>531c19ac-415f-4540-83aa-1ca632b0dbdf++4350</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Projetos</string>
+		</dict>
+	</array>
+</dict>
+</plist>

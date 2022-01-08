@@ -1,0 +1,84 @@
+
+/* Class = "UILabel"; text = "10000"; ObjectID = "0Uy-74-C0m"; */
+"0Uy-74-C0m.text" = "10000";
+
+/* Class = "UILabel"; text = "0000000"; ObjectID = "2M4-j7-W4S"; */
+"2M4-j7-W4S.text" = "0000000";
+
+/* Class = "UILabel"; text = "12:00"; ObjectID = "3P5-hU-PEk"; */
+"3P5-hU-PEk.text" = "12:00";
+
+/* Class = "UILabel"; text = "Total blocks"; ObjectID = "7Hg-8E-EYZ"; */
+"7Hg-8E-EYZ.text" = "Total de blocos";
+
+/* Class = "UILabel"; text = "Right blocks"; ObjectID = "8HR-Ia-b3m"; */
+"8HR-Ia-b3m.text" = "Certos";
+
+/* Class = "UIButton"; normalTitle = "Dificulty: Fish"; ObjectID = "8q4-tC-Tl1"; */
+"8q4-tC-Tl1.normalTitle" = "Dificuldade: Peixe";
+
+/* Class = "UILabel"; text = "10000"; ObjectID = "Eqf-Qz-cen"; */
+"Eqf-Qz-cen.text" = "10000";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "ErA-am-4Is"; */
+"ErA-am-4Is.text" = "0";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "Lzf-5T-D1y"; */
+"Lzf-5T-D1y.text" = "0";
+
+/* Class = "UILabel"; text = "Time deduction"; ObjectID = "Mcu-u3-ltY"; */
+"Mcu-u3-ltY.text" = "Desconto por tempo";
+
+/* Class = "UIButton"; normalTitle = "START PRACTICING"; ObjectID = "NFe-NW-Yfd"; */
+"NFe-NW-Yfd.normalTitle" = "INICIAR PRÁTICA";
+
+/* Class = "UILabel"; text = "10000"; ObjectID = "OpU-vI-fu5"; */
+"OpU-vI-fu5.text" = "10000";
+
+/* Class = "UIButton"; normalTitle = "New path"; ObjectID = "QGn-JV-tAt"; */
+"QGn-JV-tAt.normalTitle" = "Novo caminho";
+
+/* Class = "UILabel"; text = "10000"; ObjectID = "Ros-8J-z8e"; */
+"Ros-8J-z8e.text" = "10000";
+
+/* Class = "UILabel"; text = "10000"; ObjectID = "WuJ-2C-yhs"; */
+"WuJ-2C-yhs.text" = "10000";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "ZYk-Ul-GAX"; */
+"ZYk-Ul-GAX.text" = "0";
+
+/* Class = "UILabel"; text = "Total deductions"; ObjectID = "aKp-9f-uN1"; */
+"aKp-9f-uN1.text" = "Desconto total";
+
+/* Class = "UIButton"; normalTitle = "Main menu"; ObjectID = "b9K-kq-VPw"; */
+"b9K-kq-VPw.normalTitle" = "Menu principal";
+
+/* Class = "UILabel"; text = "Practice mode"; ObjectID = "bIH-he-StX"; */
+"bIH-he-StX.text" = "Modo prática";
+
+/* Class = "UILabel"; text = "Wrong blocks"; ObjectID = "bvn-nk-6Cq"; */
+"bvn-nk-6Cq.text" = "Errados";
+
+/* Class = "UILabel"; text = "Perfection  bonus"; ObjectID = "glh-eo-4Kg"; */
+"glh-eo-4Kg.text" = "Bonus";
+
+/* Class = "UILabel"; text = "-100000"; ObjectID = "guV-S2-TW0"; */
+"guV-S2-TW0.text" = "-100000";
+
+/* Class = "UILabel"; text = "Missed blocks"; ObjectID = "hPs-qJ-K08"; */
+"hPs-qJ-K08.text" = "Perdidos";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "i7I-wj-AUS"; */
+"i7I-wj-AUS.text" = "0";
+
+/* Class = "UILabel"; text = "Stage score"; ObjectID = "m51-im-ZUb"; */
+"m51-im-ZUb.text" = "Pontuação";
+
+/* Class = "UIButton"; normalTitle = "MAIN MENU"; ObjectID = "qII-3c-Bal"; */
+"qII-3c-Bal.normalTitle" = "MENU PRINCIPAL";
+
+/* Class = "UILabel"; text = "10000"; ObjectID = "s4x-xx-7aG"; */
+"s4x-xx-7aG.text" = "10000";
+
+/* Class = "UIButton"; normalTitle = "Try again"; ObjectID = "xGm-OH-DYb"; */
+"xGm-OH-DYb.normalTitle" = "Tentar novamente";
