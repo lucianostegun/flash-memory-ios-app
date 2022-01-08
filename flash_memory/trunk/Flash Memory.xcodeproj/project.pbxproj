@@ -1,0 +1,1054 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD010FA91ADF7458003967A2 /* Multiplayer_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD010FA71ADF7458003967A2 /* Multiplayer_iPhone.storyboard */; };
+		DD010FB21AE0941B003967A2 /* starterGameLevelList-ipad.data in Resources */ = {isa = PBXBuildFile; fileRef = DD010FB11AE0941B003967A2 /* starterGameLevelList-ipad.data */; };
+		DD167F251ACE61E700980463 /* PlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD167F241ACE61E700980463 /* PlayersViewController.swift */; };
+		DD167F271ACE62A100980463 /* MPCManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD167F261ACE62A100980463 /* MPCManager.swift */; };
+		DD167F291ACE66F700980463 /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD167F281ACE66F700980463 /* MultipeerConnectivity.framework */; };
+		DD250E421AD4CD4000696DC3 /* Creator_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD250E411AD4CD4000696DC3 /* Creator_iPhone.storyboard */; };
+		DD250E471AD4F82400696DC3 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD250E491AD4F82400696DC3 /* Main_iPhone.storyboard */; };
+		DD2BDF061ACF237700DD43C8 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2BDF051ACF237700DD43C8 /* MBProgressHUD.m */; };
+		DD2BDF0A1ACF9C9F00DD43C8 /* InstructionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2BDF091ACF9C9F00DD43C8 /* InstructionsViewController.swift */; };
+		DD2BDF0C1AD07D6700DD43C8 /* Practice.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD2BDF0E1AD07D6700DD43C8 /* Practice.storyboard */; };
+		DD2BDF111AD07E1700DD43C8 /* Multiplayer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD2BDF131AD07E1700DD43C8 /* Multiplayer.storyboard */; };
+		DD2BDF161AD07ED100DD43C8 /* Instructions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD2BDF181AD07ED100DD43C8 /* Instructions.storyboard */; };
+		DD2BDF1D1AD07F2D00DD43C8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD2BDF1F1AD07F2D00DD43C8 /* Localizable.strings */; };
+		DD2BDF221AD0A8BD00DD43C8 /* best-score.png in Resources */ = {isa = PBXBuildFile; fileRef = DD2BDF241AD0A8BD00DD43C8 /* best-score.png */; };
+		DD2BDF261AD0A8C700DD43C8 /* best-score@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD2BDF281AD0A8C700DD43C8 /* best-score@2x.png */; };
+		DD322CA61AC7BDFD0044ACEE /* yellow-star-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DD322CA51AC7BDFD0044ACEE /* yellow-star-icon.png */; };
+		DD322CAD1AC859D70044ACEE /* star-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD322CAB1AC859D70044ACEE /* star-icon@2x.png */; };
+		DD322CAE1AC859D70044ACEE /* star-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DD322CAC1AC859D70044ACEE /* star-icon.png */; };
+		DD322D021AC8B2BB0044ACEE /* star-1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD322CDD1AC8B2BB0044ACEE /* star-1.mp3 */; };
+		DD322D031AC8B2BB0044ACEE /* star-2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD322CDE1AC8B2BB0044ACEE /* star-2.mp3 */; };
+		DD322D041AC8B2BB0044ACEE /* star-3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD322CDF1AC8B2BB0044ACEE /* star-3.mp3 */; };
+		DD322D051AC8B2BB0044ACEE /* touch-1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD322CE01AC8B2BB0044ACEE /* touch-1.mp3 */; };
+		DD322D061AC8B2BB0044ACEE /* touch-2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD322CE11AC8B2BB0044ACEE /* touch-2.mp3 */; };
+		DD322D071AC8B2BB0044ACEE /* touch-3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD322CE21AC8B2BB0044ACEE /* touch-3.mp3 */; };
+		DD322D081AC8B2BB0044ACEE /* touch-4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD322CE31AC8B2BB0044ACEE /* touch-4.mp3 */; };
+		DD322D091AC8B2BB0044ACEE /* touch-5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD322CE41AC8B2BB0044ACEE /* touch-5.mp3 */; };
+		DD322D0A1AC8B2BB0044ACEE /* touch-6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD322CE51AC8B2BB0044ACEE /* touch-6.mp3 */; };
+		DD322D0B1AC8B2BB0044ACEE /* touch-7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD322CE61AC8B2BB0044ACEE /* touch-7.mp3 */; };
+		DD322D0C1AC8B2BB0044ACEE /* touch-8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD322CE71AC8B2BB0044ACEE /* touch-8.mp3 */; };
+		DD322D0D1AC8B2BB0044ACEE /* touch-9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD322CE81AC8B2BB0044ACEE /* touch-9.mp3 */; };
+		DD322D0E1AC8B2BB0044ACEE /* touch-10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD322CE91AC8B2BB0044ACEE /* touch-10.mp3 */; };
+		DD322D0F1AC8B2BB0044ACEE /* touch-11.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD322CEA1AC8B2BB0044ACEE /* touch-11.mp3 */; };
+		DD322D101AC8B2BB0044ACEE /* touch-12.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD322CEB1AC8B2BB0044ACEE /* touch-12.mp3 */; };
+		DD322D111AC8B2BB0044ACEE /* touch-13.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD322CEC1AC8B2BB0044ACEE /* touch-13.mp3 */; };
+		DD322D121AC8B2BB0044ACEE /* touch-14.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD322CED1AC8B2BB0044ACEE /* touch-14.mp3 */; };
+		DD322D131AC8B2BB0044ACEE /* touch-15.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD322CEE1AC8B2BB0044ACEE /* touch-15.mp3 */; };
+		DD322D141AC8B2BB0044ACEE /* touch-16.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD322CEF1AC8B2BB0044ACEE /* touch-16.mp3 */; };
+		DD322D151AC8B2BB0044ACEE /* touch-17.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD322CF01AC8B2BB0044ACEE /* touch-17.mp3 */; };
+		DD322D161AC8B2BB0044ACEE /* touch-18.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD322CF11AC8B2BB0044ACEE /* touch-18.mp3 */; };
+		DD322D171AC8B2BB0044ACEE /* touch-19.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD322CF21AC8B2BB0044ACEE /* touch-19.mp3 */; };
+		DD322D181AC8B2BB0044ACEE /* touch-20.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD322CF31AC8B2BB0044ACEE /* touch-20.mp3 */; };
+		DD322D191AC8B2BB0044ACEE /* touch-21.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD322CF41AC8B2BB0044ACEE /* touch-21.mp3 */; };
+		DD322D1A1AC8B2BB0044ACEE /* touch-22.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD322CF51AC8B2BB0044ACEE /* touch-22.mp3 */; };
+		DD322D1B1AC8B2BB0044ACEE /* touch-23.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD322CF61AC8B2BB0044ACEE /* touch-23.mp3 */; };
+		DD322D1C1AC8B2BB0044ACEE /* touch-24.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD322CF71AC8B2BB0044ACEE /* touch-24.mp3 */; };
+		DD322D1D1AC8B2BB0044ACEE /* touch-25.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD322CF81AC8B2BB0044ACEE /* touch-25.mp3 */; };
+		DD322D1E1AC8B2BB0044ACEE /* touch-26.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD322CF91AC8B2BB0044ACEE /* touch-26.mp3 */; };
+		DD322D1F1AC8B2BB0044ACEE /* touch-27.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD322CFA1AC8B2BB0044ACEE /* touch-27.mp3 */; };
+		DD322D201AC8B2BB0044ACEE /* touch-28.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD322CFB1AC8B2BB0044ACEE /* touch-28.mp3 */; };
+		DD322D211AC8B2BB0044ACEE /* touch-29.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD322CFC1AC8B2BB0044ACEE /* touch-29.mp3 */; };
+		DD322D221AC8B2BB0044ACEE /* touch-30.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD322CFD1AC8B2BB0044ACEE /* touch-30.mp3 */; };
+		DD322D231AC8B2BB0044ACEE /* touch-31.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD322CFE1AC8B2BB0044ACEE /* touch-31.mp3 */; };
+		DD322D241AC8B2BB0044ACEE /* touch-32.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD322CFF1AC8B2BB0044ACEE /* touch-32.mp3 */; };
+		DD322D251AC8B2BB0044ACEE /* touch-33.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD322D001AC8B2BB0044ACEE /* touch-33.mp3 */; };
+		DD322D261AC8B2BB0044ACEE /* touch-34.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD322D011AC8B2BB0044ACEE /* touch-34.mp3 */; };
+		DD322D2C1AC8D5A70044ACEE /* best-score.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD322D2B1AC8D5A70044ACEE /* best-score.mp3 */; };
+		DD322D2F1AC8DFCB0044ACEE /* level-star.png in Resources */ = {isa = PBXBuildFile; fileRef = DD322D2D1AC8DFCB0044ACEE /* level-star.png */; };
+		DD322D301AC8DFCB0044ACEE /* level-star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD322D2E1AC8DFCB0044ACEE /* level-star@2x.png */; };
+		DD322D321AC8E29F0044ACEE /* LevelMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD322D311AC8E29F0044ACEE /* LevelMenuViewController.swift */; };
+		DD322D341AC8E5BE0044ACEE /* GameStageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD322D331AC8E5BE0044ACEE /* GameStageCell.swift */; };
+		DD322D371AC8F02D0044ACEE /* game-level-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = DD322D351AC8F02D0044ACEE /* game-level-bg.png */; };
+		DD322D381AC8F02D0044ACEE /* game-level-bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD322D361AC8F02D0044ACEE /* game-level-bg@2x.png */; };
+		DD322D3A1AC8F38F0044ACEE /* GameLevelHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD322D391AC8F38F0044ACEE /* GameLevelHeader.swift */; };
+		DD322D3D1AC8F8EA0044ACEE /* locked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD322D3B1AC8F8EA0044ACEE /* locked@2x.png */; };
+		DD322D3E1AC8F8EA0044ACEE /* locked.png in Resources */ = {isa = PBXBuildFile; fileRef = DD322D3C1AC8F8EA0044ACEE /* locked.png */; };
+		DD3CC5391AF493E200CADD1F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3CC5381AF493E200CADD1F /* Constants.swift */; };
+		DD3CC53B1AF5F53900CADD1F /* AgainstTime.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD3CC53A1AF5F53900CADD1F /* AgainstTime.storyboard */; };
+		DD3CC53D1AF5F55500CADD1F /* AgainstTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3CC53C1AF5F55500CADD1F /* AgainstTimeViewController.swift */; };
+		DD3CC53F1AF5F58000CADD1F /* MultiplayerOnline_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD3CC53E1AF5F58000CADD1F /* MultiplayerOnline_iPhone.storyboard */; };
+		DD3CC5411AF5F59E00CADD1F /* special-block.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD3CC5401AF5F59E00CADD1F /* special-block.mp3 */; };
+		DD53EDE91ACB7A2F00700781 /* main-bg.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD53EDE81ACB7A2F00700781 /* main-bg.mp3 */; };
+		DD54E1781AD87775006DBA91 /* starterGameLevelList-iphone5.data in Resources */ = {isa = PBXBuildFile; fileRef = DD54E1771AD87775006DBA91 /* starterGameLevelList-iphone5.data */; };
+		DD5EB2721AC627C1007D47C0 /* score-board-shadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD5EB2701AC627C1007D47C0 /* score-board-shadow@2x.png */; };
+		DD5EB2731AC627C1007D47C0 /* score-board-shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = DD5EB2711AC627C1007D47C0 /* score-board-shadow.png */; };
+		DD7284001AD60EEE00C32435 /* Instructions_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD7284021AD60EEE00C32435 /* Instructions_iPhone.storyboard */; };
+		DD762C601AD64CE9006DBBFA /* Practice_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD762C621AD64CE9006DBBFA /* Practice_iPhone.storyboard */; };
+		DD772A271ACDDC4D0008EFC3 /* PracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD772A261ACDDC4D0008EFC3 /* PracticeViewController.swift */; };
+		DD772A291ACDDCF20008EFC3 /* RandomGameStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD772A281ACDDCF20008EFC3 /* RandomGameStage.swift */; };
+		DD8011C91AD8B2EE0040C99E /* MultiplayerOnlineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8011C81AD8B2EE0040C99E /* MultiplayerOnlineViewController.swift */; };
+		DD8011CB1AD8FABF0040C99E /* MultiplayerOnline.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD8011CD1AD8FABF0040C99E /* MultiplayerOnline.storyboard */; };
+		DD8873B21AF2626900830D3A /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD8873B11AF2626900830D3A /* GoogleMobileAds.framework */; };
+		DD965AF51AC5E8C2001A7D88 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD965AF41AC5E8C2001A7D88 /* iAd.framework */; };
+		DD9E6FFB1AC50F5200B48F4A /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD9E6FFA1AC50F5200B48F4A /* GameKit.framework */; };
+		DDC3787A1AC3B09800574851 /* stars-bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC378791AC3B09800574851 /* stars-bg@2x.png */; };
+		DDC3787C1AC3B0A400574851 /* stars-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC3787B1AC3B0A400574851 /* stars-bg.png */; };
+		DDC378811AC3B8D400574851 /* UICountingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC378801AC3B8D400574851 /* UICountingLabel.m */; };
+		DDC378831AC3C0ED00574851 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC378821AC3C0ED00574851 /* Util.swift */; };
+		DDC378861AC4D05600574851 /* CreatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC378851AC4D05600574851 /* CreatorViewController.swift */; };
+		DDC378881AC4D34D00574851 /* Creator.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC378871AC4D34D00574851 /* Creator.storyboard */; };
+		DDC7C8901ADCB6B60027C44F /* iRate.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DDC7C88D1ADCB6B60027C44F /* iRate.bundle */; };
+		DDC7C8911ADCB6B60027C44F /* iRate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC7C88F1ADCB6B60027C44F /* iRate.m */; };
+		DDD0DD9F1AC2295500ABE897 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD0DD9E1AC2295500ABE897 /* AppDelegate.swift */; };
+		DDD0DDA11AC2295500ABE897 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DDD0DDA01AC2295500ABE897 /* GameScene.sks */; };
+		DDD0DDA31AC2295500ABE897 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD0DDA21AC2295500ABE897 /* GameScene.swift */; };
+		DDD0DDA51AC2295500ABE897 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD0DDA41AC2295500ABE897 /* GameViewController.swift */; };
+		DDD0DDA81AC2295500ABE897 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDD0DDA61AC2295500ABE897 /* Main.storyboard */; };
+		DDD0DDAA1AC2295600ABE897 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDD0DDA91AC2295600ABE897 /* Images.xcassets */; };
+		DDD0DDB91AC2295600ABE897 /* Flash_MemoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD0DDB81AC2295600ABE897 /* Flash_MemoryTests.swift */; };
+		DDD0DDD41AC23DB100ABE897 /* SKBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD0DDD31AC23DB100ABE897 /* SKBlock.swift */; };
+		DDD0DDDE1AC26C6300ABE897 /* GameLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD0DDDD1AC26C6300ABE897 /* GameLevel.swift */; };
+		DDD0DDE01AC26CD800ABE897 /* GameStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD0DDDF1AC26CD800ABE897 /* GameStage.swift */; };
+		DDD19C491AD72A190047E461 /* starterGameLevelList-iphone4.data in Resources */ = {isa = PBXBuildFile; fileRef = DDD19C451AD72A190047E461 /* starterGameLevelList-iphone4.data */; };
+		DDD19C4A1AD72A190047E461 /* starterGameLevelList-iphone6.data in Resources */ = {isa = PBXBuildFile; fileRef = DDD19C461AD72A190047E461 /* starterGameLevelList-iphone6.data */; };
+		DDD19C4C1AD72A190047E461 /* starterGameLevelList-iphone6p.data in Resources */ = {isa = PBXBuildFile; fileRef = DDD19C481AD72A190047E461 /* starterGameLevelList-iphone6p.data */; };
+		DDD63B311AD73F21000B0F7C /* MultiplayerSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD63B301AD73F21000B0F7C /* MultiplayerSession.swift */; };
+		DDDF7B2A1ACEE21A00B97D6A /* MultiplayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDF7B291ACEE21A00B97D6A /* MultiplayerViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDD0DDB31AC2295600ABE897 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDD0DD911AC2295500ABE897 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDD0DD981AC2295500ABE897;
+			remoteInfo = "Flash Memory";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD010FA71ADF7458003967A2 /* Multiplayer_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Multiplayer_iPhone.storyboard; sourceTree = "<group>"; };
+		DD010FB11AE0941B003967A2 /* starterGameLevelList-ipad.data */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "starterGameLevelList-ipad.data"; sourceTree = "<group>"; };
+		DD167F241ACE61E700980463 /* PlayersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayersViewController.swift; sourceTree = "<group>"; };
+		DD167F261ACE62A100980463 /* MPCManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPCManager.swift; sourceTree = "<group>"; };
+		DD167F281ACE66F700980463 /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
+		DD250E411AD4CD4000696DC3 /* Creator_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Creator_iPhone.storyboard; sourceTree = "<group>"; };
+		DD250E481AD4F82400696DC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		DD250E4B1AD4F82700696DC3 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Main_iPhone.strings; sourceTree = "<group>"; };
+		DD2BDF041ACF237700DD43C8 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		DD2BDF051ACF237700DD43C8 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		DD2BDF091ACF9C9F00DD43C8 /* InstructionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstructionsViewController.swift; sourceTree = "<group>"; };
+		DD2BDF0B1AD07BBF00DD43C8 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Main.strings; sourceTree = "<group>"; };
+		DD2BDF0F1AD07D8300DD43C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Practice.storyboard; sourceTree = "<group>"; };
+		DD2BDF101AD07D8900DD43C8 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Practice.strings; sourceTree = "<group>"; };
+		DD2BDF121AD07E1700DD43C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Multiplayer.storyboard; sourceTree = "<group>"; };
+		DD2BDF171AD07ED100DD43C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Instructions.storyboard; sourceTree = "<group>"; };
+		DD2BDF1A1AD07ED500DD43C8 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Instructions.strings; sourceTree = "<group>"; };
+		DD2BDF1E1AD07F2D00DD43C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DD2BDF201AD07F3100DD43C8 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DD2BDF211AD09FA600DD43C8 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Multiplayer.strings; sourceTree = "<group>"; };
+		DD2BDF231AD0A8BD00DD43C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = "Base.lproj/best-score.png"; sourceTree = "<group>"; };
+		DD2BDF251AD0A8C200DD43C8 /* pt */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pt; path = "pt.lproj/best-score.png"; sourceTree = "<group>"; };
+		DD2BDF271AD0A8C700DD43C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = "Base.lproj/best-score@2x.png"; sourceTree = "<group>"; };
+		DD2BDF2A1AD0A8E400DD43C8 /* pt */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pt; path = "pt.lproj/best-score@2x.png"; sourceTree = "<group>"; };
+		DD322CA51AC7BDFD0044ACEE /* yellow-star-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yellow-star-icon.png"; sourceTree = "<group>"; };
+		DD322CAB1AC859D70044ACEE /* star-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star-icon@2x.png"; sourceTree = "<group>"; };
+		DD322CAC1AC859D70044ACEE /* star-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star-icon.png"; sourceTree = "<group>"; };
+		DD322CDD1AC8B2BB0044ACEE /* star-1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "star-1.mp3"; sourceTree = "<group>"; };
+		DD322CDE1AC8B2BB0044ACEE /* star-2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "star-2.mp3"; sourceTree = "<group>"; };
+		DD322CDF1AC8B2BB0044ACEE /* star-3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "star-3.mp3"; sourceTree = "<group>"; };
+		DD322CE01AC8B2BB0044ACEE /* touch-1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "touch-1.mp3"; sourceTree = "<group>"; };
+		DD322CE11AC8B2BB0044ACEE /* touch-2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "touch-2.mp3"; sourceTree = "<group>"; };
+		DD322CE21AC8B2BB0044ACEE /* touch-3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "touch-3.mp3"; sourceTree = "<group>"; };
+		DD322CE31AC8B2BB0044ACEE /* touch-4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "touch-4.mp3"; sourceTree = "<group>"; };
+		DD322CE41AC8B2BB0044ACEE /* touch-5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "touch-5.mp3"; sourceTree = "<group>"; };
+		DD322CE51AC8B2BB0044ACEE /* touch-6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "touch-6.mp3"; sourceTree = "<group>"; };
+		DD322CE61AC8B2BB0044ACEE /* touch-7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "touch-7.mp3"; sourceTree = "<group>"; };
+		DD322CE71AC8B2BB0044ACEE /* touch-8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "touch-8.mp3"; sourceTree = "<group>"; };
+		DD322CE81AC8B2BB0044ACEE /* touch-9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "touch-9.mp3"; sourceTree = "<group>"; };
+		DD322CE91AC8B2BB0044ACEE /* touch-10.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "touch-10.mp3"; sourceTree = "<group>"; };
+		DD322CEA1AC8B2BB0044ACEE /* touch-11.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "touch-11.mp3"; sourceTree = "<group>"; };
+		DD322CEB1AC8B2BB0044ACEE /* touch-12.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "touch-12.mp3"; sourceTree = "<group>"; };
+		DD322CEC1AC8B2BB0044ACEE /* touch-13.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "touch-13.mp3"; sourceTree = "<group>"; };
+		DD322CED1AC8B2BB0044ACEE /* touch-14.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "touch-14.mp3"; sourceTree = "<group>"; };
+		DD322CEE1AC8B2BB0044ACEE /* touch-15.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "touch-15.mp3"; sourceTree = "<group>"; };
+		DD322CEF1AC8B2BB0044ACEE /* touch-16.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "touch-16.mp3"; sourceTree = "<group>"; };
+		DD322CF01AC8B2BB0044ACEE /* touch-17.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "touch-17.mp3"; sourceTree = "<group>"; };
+		DD322CF11AC8B2BB0044ACEE /* touch-18.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "touch-18.mp3"; sourceTree = "<group>"; };
+		DD322CF21AC8B2BB0044ACEE /* touch-19.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "touch-19.mp3"; sourceTree = "<group>"; };
+		DD322CF31AC8B2BB0044ACEE /* touch-20.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "touch-20.mp3"; sourceTree = "<group>"; };
+		DD322CF41AC8B2BB0044ACEE /* touch-21.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "touch-21.mp3"; sourceTree = "<group>"; };
+		DD322CF51AC8B2BB0044ACEE /* touch-22.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "touch-22.mp3"; sourceTree = "<group>"; };
+		DD322CF61AC8B2BB0044ACEE /* touch-23.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "touch-23.mp3"; sourceTree = "<group>"; };
+		DD322CF71AC8B2BB0044ACEE /* touch-24.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "touch-24.mp3"; sourceTree = "<group>"; };
+		DD322CF81AC8B2BB0044ACEE /* touch-25.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "touch-25.mp3"; sourceTree = "<group>"; };
+		DD322CF91AC8B2BB0044ACEE /* touch-26.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "touch-26.mp3"; sourceTree = "<group>"; };
+		DD322CFA1AC8B2BB0044ACEE /* touch-27.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "touch-27.mp3"; sourceTree = "<group>"; };
+		DD322CFB1AC8B2BB0044ACEE /* touch-28.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "touch-28.mp3"; sourceTree = "<group>"; };
+		DD322CFC1AC8B2BB0044ACEE /* touch-29.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "touch-29.mp3"; sourceTree = "<group>"; };
+		DD322CFD1AC8B2BB0044ACEE /* touch-30.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "touch-30.mp3"; sourceTree = "<group>"; };
+		DD322CFE1AC8B2BB0044ACEE /* touch-31.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "touch-31.mp3"; sourceTree = "<group>"; };
+		DD322CFF1AC8B2BB0044ACEE /* touch-32.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "touch-32.mp3"; sourceTree = "<group>"; };
+		DD322D001AC8B2BB0044ACEE /* touch-33.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "touch-33.mp3"; sourceTree = "<group>"; };
+		DD322D011AC8B2BB0044ACEE /* touch-34.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "touch-34.mp3"; sourceTree = "<group>"; };
+		DD322D2B1AC8D5A70044ACEE /* best-score.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "best-score.mp3"; sourceTree = "<group>"; };
+		DD322D2D1AC8DFCB0044ACEE /* level-star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "level-star.png"; sourceTree = "<group>"; };
+		DD322D2E1AC8DFCB0044ACEE /* level-star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "level-star@2x.png"; sourceTree = "<group>"; };
+		DD322D311AC8E29F0044ACEE /* LevelMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelMenuViewController.swift; sourceTree = "<group>"; };
+		DD322D331AC8E5BE0044ACEE /* GameStageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameStageCell.swift; sourceTree = "<group>"; };
+		DD322D351AC8F02D0044ACEE /* game-level-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "game-level-bg.png"; sourceTree = "<group>"; };
+		DD322D361AC8F02D0044ACEE /* game-level-bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "game-level-bg@2x.png"; sourceTree = "<group>"; };
+		DD322D391AC8F38F0044ACEE /* GameLevelHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameLevelHeader.swift; sourceTree = "<group>"; };
+		DD322D3B1AC8F8EA0044ACEE /* locked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "locked@2x.png"; sourceTree = "<group>"; };
+		DD322D3C1AC8F8EA0044ACEE /* locked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = locked.png; sourceTree = "<group>"; };
+		DD3CC5381AF493E200CADD1F /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		DD3CC53A1AF5F53900CADD1F /* AgainstTime.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AgainstTime.storyboard; sourceTree = "<group>"; };
+		DD3CC53C1AF5F55500CADD1F /* AgainstTimeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgainstTimeViewController.swift; sourceTree = "<group>"; };
+		DD3CC53E1AF5F58000CADD1F /* MultiplayerOnline_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MultiplayerOnline_iPhone.storyboard; sourceTree = "<group>"; };
+		DD3CC5401AF5F59E00CADD1F /* special-block.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "special-block.mp3"; sourceTree = "<group>"; };
+		DD53EDE81ACB7A2F00700781 /* main-bg.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "main-bg.mp3"; sourceTree = "<group>"; };
+		DD54E1771AD87775006DBA91 /* starterGameLevelList-iphone5.data */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "starterGameLevelList-iphone5.data"; sourceTree = "<group>"; };
+		DD5EB2701AC627C1007D47C0 /* score-board-shadow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "score-board-shadow@2x.png"; sourceTree = "<group>"; };
+		DD5EB2711AC627C1007D47C0 /* score-board-shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "score-board-shadow.png"; sourceTree = "<group>"; };
+		DD71FA081AD8038200D9E490 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/Main_iPhone.strings"; sourceTree = "<group>"; };
+		DD71FA091AD8038200D9E490 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/Practice_iPhone.strings"; sourceTree = "<group>"; };
+		DD71FA0A1AD8038200D9E490 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/Instructions_iPhone.strings"; sourceTree = "<group>"; };
+		DD71FA0B1AD8038200D9E490 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/Main.strings"; sourceTree = "<group>"; };
+		DD71FA0C1AD8038200D9E490 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/Practice.strings"; sourceTree = "<group>"; };
+		DD71FA0D1AD8038300D9E490 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/Multiplayer.strings"; sourceTree = "<group>"; };
+		DD71FA0E1AD8038300D9E490 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/Instructions.strings"; sourceTree = "<group>"; };
+		DD71FA0F1AD8038400D9E490 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pt-PT"; path = "pt-PT.lproj/best-score@2x.png"; sourceTree = "<group>"; };
+		DD71FA101AD8038500D9E490 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pt-PT"; path = "pt-PT.lproj/best-score.png"; sourceTree = "<group>"; };
+		DD71FA111AD8038600D9E490 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		DD7284011AD60EEE00C32435 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Instructions_iPhone.storyboard; sourceTree = "<group>"; };
+		DD7284041AD60EF500C32435 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Instructions_iPhone.strings; sourceTree = "<group>"; };
+		DD762C611AD64CE9006DBBFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Practice_iPhone.storyboard; sourceTree = "<group>"; };
+		DD762C641AD64CF0006DBBFA /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Practice_iPhone.strings; sourceTree = "<group>"; };
+		DD772A261ACDDC4D0008EFC3 /* PracticeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PracticeViewController.swift; sourceTree = "<group>"; };
+		DD772A281ACDDCF20008EFC3 /* RandomGameStage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomGameStage.swift; sourceTree = "<group>"; };
+		DD8011C81AD8B2EE0040C99E /* MultiplayerOnlineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiplayerOnlineViewController.swift; sourceTree = "<group>"; };
+		DD8011CC1AD8FABF0040C99E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MultiplayerOnline.storyboard; sourceTree = "<group>"; };
+		DD8011CF1AD8FADE0040C99E /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/MultiplayerOnline.strings; sourceTree = "<group>"; };
+		DD8011D01AD8FAE50040C99E /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/MultiplayerOnline.strings"; sourceTree = "<group>"; };
+		DD8873B11AF2626900830D3A /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		DD965AF41AC5E8C2001A7D88 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		DD9E6FFA1AC50F5200B48F4A /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		DDC378791AC3B09800574851 /* stars-bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stars-bg@2x.png"; sourceTree = "<group>"; };
+		DDC3787B1AC3B0A400574851 /* stars-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stars-bg.png"; sourceTree = "<group>"; };
+		DDC3787E1AC3B8D300574851 /* Flash Memory-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Flash Memory-Bridging-Header.h"; sourceTree = "<group>"; };
+		DDC3787F1AC3B8D400574851 /* UICountingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICountingLabel.h; sourceTree = "<group>"; };
+		DDC378801AC3B8D400574851 /* UICountingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICountingLabel.m; sourceTree = "<group>"; };
+		DDC378821AC3C0ED00574851 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		DDC378851AC4D05600574851 /* CreatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatorViewController.swift; sourceTree = "<group>"; };
+		DDC378871AC4D34D00574851 /* Creator.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Creator.storyboard; sourceTree = "<group>"; };
+		DDC7C88D1ADCB6B60027C44F /* iRate.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = iRate.bundle; sourceTree = "<group>"; };
+		DDC7C88E1ADCB6B60027C44F /* iRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iRate.h; sourceTree = "<group>"; };
+		DDC7C88F1ADCB6B60027C44F /* iRate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iRate.m; sourceTree = "<group>"; };
+		DDD0DD991AC2295500ABE897 /* Flash Memory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flash Memory.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDD0DD9D1AC2295500ABE897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDD0DD9E1AC2295500ABE897 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDD0DDA01AC2295500ABE897 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		DDD0DDA21AC2295500ABE897 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		DDD0DDA41AC2295500ABE897 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		DDD0DDA71AC2295500ABE897 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDD0DDA91AC2295600ABE897 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DDD0DDB21AC2295600ABE897 /* Flash MemoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flash MemoryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDD0DDB71AC2295600ABE897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDD0DDB81AC2295600ABE897 /* Flash_MemoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flash_MemoryTests.swift; sourceTree = "<group>"; };
+		DDD0DDD31AC23DB100ABE897 /* SKBlock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKBlock.swift; sourceTree = "<group>"; };
+		DDD0DDDD1AC26C6300ABE897 /* GameLevel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameLevel.swift; sourceTree = "<group>"; };
+		DDD0DDDF1AC26CD800ABE897 /* GameStage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameStage.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		DDD19C451AD72A190047E461 /* starterGameLevelList-iphone4.data */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "starterGameLevelList-iphone4.data"; sourceTree = "<group>"; };
+		DDD19C461AD72A190047E461 /* starterGameLevelList-iphone6.data */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "starterGameLevelList-iphone6.data"; sourceTree = "<group>"; };
+		DDD19C481AD72A190047E461 /* starterGameLevelList-iphone6p.data */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "starterGameLevelList-iphone6p.data"; sourceTree = "<group>"; };
+		DDD63B301AD73F21000B0F7C /* MultiplayerSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiplayerSession.swift; sourceTree = "<group>"; };
+		DDDF7B291ACEE21A00B97D6A /* MultiplayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiplayerViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDD0DD961AC2295500ABE897 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD167F291ACE66F700980463 /* MultipeerConnectivity.framework in Frameworks */,
+				DD965AF51AC5E8C2001A7D88 /* iAd.framework in Frameworks */,
+				DD8873B21AF2626900830D3A /* GoogleMobileAds.framework in Frameworks */,
+				DD9E6FFB1AC50F5200B48F4A /* GameKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDD0DDAF1AC2295600ABE897 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD250E3F1AD4CD0400696DC3 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				DDD0DDA61AC2295500ABE897 /* Main.storyboard */,
+				DD2BDF0E1AD07D6700DD43C8 /* Practice.storyboard */,
+				DD2BDF131AD07E1700DD43C8 /* Multiplayer.storyboard */,
+				DD8011CD1AD8FABF0040C99E /* MultiplayerOnline.storyboard */,
+				DDC378871AC4D34D00574851 /* Creator.storyboard */,
+				DD2BDF181AD07ED100DD43C8 /* Instructions.storyboard */,
+				DD3CC53A1AF5F53900CADD1F /* AgainstTime.storyboard */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		DD250E401AD4CD0D00696DC3 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				DD250E491AD4F82400696DC3 /* Main_iPhone.storyboard */,
+				DD250E411AD4CD4000696DC3 /* Creator_iPhone.storyboard */,
+				DD762C621AD64CE9006DBBFA /* Practice_iPhone.storyboard */,
+				DD010FA71ADF7458003967A2 /* Multiplayer_iPhone.storyboard */,
+				DD3CC53E1AF5F58000CADD1F /* MultiplayerOnline_iPhone.storyboard */,
+				DD7284021AD60EEE00C32435 /* Instructions_iPhone.storyboard */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		DDC3787D1AC3B89200574851 /* vendor */ = {
+			isa = PBXGroup;
+			children = (
+				DDC3787F1AC3B8D400574851 /* UICountingLabel.h */,
+				DDC378801AC3B8D400574851 /* UICountingLabel.m */,
+				DD167F261ACE62A100980463 /* MPCManager.swift */,
+				DD2BDF041ACF237700DD43C8 /* MBProgressHUD.h */,
+				DD2BDF051ACF237700DD43C8 /* MBProgressHUD.m */,
+				DDC7C88D1ADCB6B60027C44F /* iRate.bundle */,
+				DDC7C88E1ADCB6B60027C44F /* iRate.h */,
+				DDC7C88F1ADCB6B60027C44F /* iRate.m */,
+				DDC3787E1AC3B8D300574851 /* Flash Memory-Bridging-Header.h */,
+			);
+			name = vendor;
+			sourceTree = "<group>";
+		};
+		DDC378841AC3C0F000574851 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				DDD0DDD31AC23DB100ABE897 /* SKBlock.swift */,
+				DDC378821AC3C0ED00574851 /* Util.swift */,
+				DD322D331AC8E5BE0044ACEE /* GameStageCell.swift */,
+				DD322D391AC8F38F0044ACEE /* GameLevelHeader.swift */,
+				DD772A281ACDDCF20008EFC3 /* RandomGameStage.swift */,
+				DDD0DDDD1AC26C6300ABE897 /* GameLevel.swift */,
+				DDD0DDDF1AC26CD800ABE897 /* GameStage.swift */,
+				DDD63B301AD73F21000B0F7C /* MultiplayerSession.swift */,
+				DD3CC5381AF493E200CADD1F /* Constants.swift */,
+			);
+			name = classes;
+			sourceTree = "<group>";
+		};
+		DDC378891AC4D6FE00574851 /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				DD3CC5401AF5F59E00CADD1F /* special-block.mp3 */,
+				DD53EDE81ACB7A2F00700781 /* main-bg.mp3 */,
+				DD322D2B1AC8D5A70044ACEE /* best-score.mp3 */,
+				DD322CDD1AC8B2BB0044ACEE /* star-1.mp3 */,
+				DD322CDE1AC8B2BB0044ACEE /* star-2.mp3 */,
+				DD322CDF1AC8B2BB0044ACEE /* star-3.mp3 */,
+				DD322CE01AC8B2BB0044ACEE /* touch-1.mp3 */,
+				DD322CE11AC8B2BB0044ACEE /* touch-2.mp3 */,
+				DD322CE21AC8B2BB0044ACEE /* touch-3.mp3 */,
+				DD322CE31AC8B2BB0044ACEE /* touch-4.mp3 */,
+				DD322CE41AC8B2BB0044ACEE /* touch-5.mp3 */,
+				DD322CE51AC8B2BB0044ACEE /* touch-6.mp3 */,
+				DD322CE61AC8B2BB0044ACEE /* touch-7.mp3 */,
+				DD322CE71AC8B2BB0044ACEE /* touch-8.mp3 */,
+				DD322CE81AC8B2BB0044ACEE /* touch-9.mp3 */,
+				DD322CE91AC8B2BB0044ACEE /* touch-10.mp3 */,
+				DD322CEA1AC8B2BB0044ACEE /* touch-11.mp3 */,
+				DD322CEB1AC8B2BB0044ACEE /* touch-12.mp3 */,
+				DD322CEC1AC8B2BB0044ACEE /* touch-13.mp3 */,
+				DD322CED1AC8B2BB0044ACEE /* touch-14.mp3 */,
+				DD322CEE1AC8B2BB0044ACEE /* touch-15.mp3 */,
+				DD322CEF1AC8B2BB0044ACEE /* touch-16.mp3 */,
+				DD322CF01AC8B2BB0044ACEE /* touch-17.mp3 */,
+				DD322CF11AC8B2BB0044ACEE /* touch-18.mp3 */,
+				DD322CF21AC8B2BB0044ACEE /* touch-19.mp3 */,
+				DD322CF31AC8B2BB0044ACEE /* touch-20.mp3 */,
+				DD322CF41AC8B2BB0044ACEE /* touch-21.mp3 */,
+				DD322CF51AC8B2BB0044ACEE /* touch-22.mp3 */,
+				DD322CF61AC8B2BB0044ACEE /* touch-23.mp3 */,
+				DD322CF71AC8B2BB0044ACEE /* touch-24.mp3 */,
+				DD322CF81AC8B2BB0044ACEE /* touch-25.mp3 */,
+				DD322CF91AC8B2BB0044ACEE /* touch-26.mp3 */,
+				DD322CFA1AC8B2BB0044ACEE /* touch-27.mp3 */,
+				DD322CFB1AC8B2BB0044ACEE /* touch-28.mp3 */,
+				DD322CFC1AC8B2BB0044ACEE /* touch-29.mp3 */,
+				DD322CFD1AC8B2BB0044ACEE /* touch-30.mp3 */,
+				DD322CFE1AC8B2BB0044ACEE /* touch-31.mp3 */,
+				DD322CFF1AC8B2BB0044ACEE /* touch-32.mp3 */,
+				DD322D001AC8B2BB0044ACEE /* touch-33.mp3 */,
+				DD322D011AC8B2BB0044ACEE /* touch-34.mp3 */,
+			);
+			name = sound;
+			sourceTree = "<group>";
+		};
+		DDD0DD901AC2295500ABE897 = {
+			isa = PBXGroup;
+			children = (
+				DD8873B11AF2626900830D3A /* GoogleMobileAds.framework */,
+				DD167F281ACE66F700980463 /* MultipeerConnectivity.framework */,
+				DD965AF41AC5E8C2001A7D88 /* iAd.framework */,
+				DD9E6FFA1AC50F5200B48F4A /* GameKit.framework */,
+				DDD0DD9B1AC2295500ABE897 /* Flash Memory */,
+				DDD0DDB51AC2295600ABE897 /* Flash MemoryTests */,
+				DDD0DD9A1AC2295500ABE897 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDD0DD9A1AC2295500ABE897 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDD0DD991AC2295500ABE897 /* Flash Memory.app */,
+				DDD0DDB21AC2295600ABE897 /* Flash MemoryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDD0DD9B1AC2295500ABE897 /* Flash Memory */ = {
+			isa = PBXGroup;
+			children = (
+				DDC378891AC4D6FE00574851 /* sound */,
+				DDC378841AC3C0F000574851 /* classes */,
+				DDC3787D1AC3B89200574851 /* vendor */,
+				DDD0DDC51AC22CE700ABE897 /* images */,
+				DDD0DD9E1AC2295500ABE897 /* AppDelegate.swift */,
+				DDD0DDA21AC2295500ABE897 /* GameScene.swift */,
+				DDD0DDA41AC2295500ABE897 /* GameViewController.swift */,
+				DDC378851AC4D05600574851 /* CreatorViewController.swift */,
+				DD772A261ACDDC4D0008EFC3 /* PracticeViewController.swift */,
+				DD322D311AC8E29F0044ACEE /* LevelMenuViewController.swift */,
+				DD167F241ACE61E700980463 /* PlayersViewController.swift */,
+				DDDF7B291ACEE21A00B97D6A /* MultiplayerViewController.swift */,
+				DD8011C81AD8B2EE0040C99E /* MultiplayerOnlineViewController.swift */,
+				DD2BDF091ACF9C9F00DD43C8 /* InstructionsViewController.swift */,
+				DD3CC53C1AF5F55500CADD1F /* AgainstTimeViewController.swift */,
+				DD250E401AD4CD0D00696DC3 /* iPhone */,
+				DD250E3F1AD4CD0400696DC3 /* iPad */,
+				DDD0DDA91AC2295600ABE897 /* Images.xcassets */,
+				DDD0DD9C1AC2295500ABE897 /* Supporting Files */,
+			);
+			path = "Flash Memory";
+			sourceTree = "<group>";
+		};
+		DDD0DD9C1AC2295500ABE897 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDD0DDA01AC2295500ABE897 /* GameScene.sks */,
+				DD010FB11AE0941B003967A2 /* starterGameLevelList-ipad.data */,
+				DD54E1771AD87775006DBA91 /* starterGameLevelList-iphone5.data */,
+				DDD19C451AD72A190047E461 /* starterGameLevelList-iphone4.data */,
+				DDD19C461AD72A190047E461 /* starterGameLevelList-iphone6.data */,
+				DDD19C481AD72A190047E461 /* starterGameLevelList-iphone6p.data */,
+				DDD0DD9D1AC2295500ABE897 /* Info.plist */,
+				DD2BDF1F1AD07F2D00DD43C8 /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDD0DDB51AC2295600ABE897 /* Flash MemoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDD0DDB81AC2295600ABE897 /* Flash_MemoryTests.swift */,
+				DDD0DDB61AC2295600ABE897 /* Supporting Files */,
+			);
+			path = "Flash MemoryTests";
+			sourceTree = "<group>";
+		};
+		DDD0DDB61AC2295600ABE897 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDD0DDB71AC2295600ABE897 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDD0DDC51AC22CE700ABE897 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				DD322D3B1AC8F8EA0044ACEE /* locked@2x.png */,
+				DD322D3C1AC8F8EA0044ACEE /* locked.png */,
+				DD322D351AC8F02D0044ACEE /* game-level-bg.png */,
+				DD322D361AC8F02D0044ACEE /* game-level-bg@2x.png */,
+				DD322D2D1AC8DFCB0044ACEE /* level-star.png */,
+				DD322D2E1AC8DFCB0044ACEE /* level-star@2x.png */,
+				DD322CAB1AC859D70044ACEE /* star-icon@2x.png */,
+				DD322CAC1AC859D70044ACEE /* star-icon.png */,
+				DD322CA51AC7BDFD0044ACEE /* yellow-star-icon.png */,
+				DD5EB2701AC627C1007D47C0 /* score-board-shadow@2x.png */,
+				DD5EB2711AC627C1007D47C0 /* score-board-shadow.png */,
+				DDC3787B1AC3B0A400574851 /* stars-bg.png */,
+				DDC378791AC3B09800574851 /* stars-bg@2x.png */,
+				DD2BDF281AD0A8C700DD43C8 /* best-score@2x.png */,
+				DD2BDF241AD0A8BD00DD43C8 /* best-score.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDD0DD981AC2295500ABE897 /* Flash Memory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDD0DDBC1AC2295600ABE897 /* Build configuration list for PBXNativeTarget "Flash Memory" */;
+			buildPhases = (
+				DDD0DD951AC2295500ABE897 /* Sources */,
+				DDD0DD961AC2295500ABE897 /* Frameworks */,
+				DDD0DD971AC2295500ABE897 /* Resources */,
+				DDD0DDC21AC22ABB00ABE897 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Flash Memory";
+			productName = "Flash Memory";
+			productReference = DDD0DD991AC2295500ABE897 /* Flash Memory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDD0DDB11AC2295600ABE897 /* Flash MemoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDD0DDBF1AC2295600ABE897 /* Build configuration list for PBXNativeTarget "Flash MemoryTests" */;
+			buildPhases = (
+				DDD0DDAE1AC2295600ABE897 /* Sources */,
+				DDD0DDAF1AC2295600ABE897 /* Frameworks */,
+				DDD0DDB01AC2295600ABE897 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDD0DDB41AC2295600ABE897 /* PBXTargetDependency */,
+			);
+			name = "Flash MemoryTests";
+			productName = "Flash MemoryTests";
+			productReference = DDD0DDB21AC2295600ABE897 /* Flash MemoryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDD0DD911AC2295500ABE897 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Stegun.com;
+				TargetAttributes = {
+					DDD0DD981AC2295500ABE897 = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = CP356H356Z;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+						};
+					};
+					DDD0DDB11AC2295600ABE897 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = DDD0DD981AC2295500ABE897;
+					};
+				};
+			};
+			buildConfigurationList = DDD0DD941AC2295500ABE897 /* Build configuration list for PBXProject "Flash Memory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				pt,
+				"pt-PT",
+			);
+			mainGroup = DDD0DD901AC2295500ABE897;
+			productRefGroup = DDD0DD9A1AC2295500ABE897 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDD0DD981AC2295500ABE897 /* Flash Memory */,
+				DDD0DDB11AC2295600ABE897 /* Flash MemoryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDD0DD971AC2295500ABE897 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD2BDF0C1AD07D6700DD43C8 /* Practice.storyboard in Resources */,
+				DD322D2F1AC8DFCB0044ACEE /* level-star.png in Resources */,
+				DD322CAD1AC859D70044ACEE /* star-icon@2x.png in Resources */,
+				DD322D191AC8B2BB0044ACEE /* touch-21.mp3 in Resources */,
+				DD010FA91ADF7458003967A2 /* Multiplayer_iPhone.storyboard in Resources */,
+				DD2BDF161AD07ED100DD43C8 /* Instructions.storyboard in Resources */,
+				DD322D0C1AC8B2BB0044ACEE /* touch-8.mp3 in Resources */,
+				DD322D081AC8B2BB0044ACEE /* touch-4.mp3 in Resources */,
+				DD762C601AD64CE9006DBBFA /* Practice_iPhone.storyboard in Resources */,
+				DD8011CB1AD8FABF0040C99E /* MultiplayerOnline.storyboard in Resources */,
+				DD322D251AC8B2BB0044ACEE /* touch-33.mp3 in Resources */,
+				DD322D041AC8B2BB0044ACEE /* star-3.mp3 in Resources */,
+				DD322CAE1AC859D70044ACEE /* star-icon.png in Resources */,
+				DD250E421AD4CD4000696DC3 /* Creator_iPhone.storyboard in Resources */,
+				DD5EB2721AC627C1007D47C0 /* score-board-shadow@2x.png in Resources */,
+				DD322D371AC8F02D0044ACEE /* game-level-bg.png in Resources */,
+				DD2BDF221AD0A8BD00DD43C8 /* best-score.png in Resources */,
+				DD2BDF261AD0A8C700DD43C8 /* best-score@2x.png in Resources */,
+				DD3CC5411AF5F59E00CADD1F /* special-block.mp3 in Resources */,
+				DD322D0D1AC8B2BB0044ACEE /* touch-9.mp3 in Resources */,
+				DD322D021AC8B2BB0044ACEE /* star-1.mp3 in Resources */,
+				DD322D201AC8B2BB0044ACEE /* touch-28.mp3 in Resources */,
+				DD54E1781AD87775006DBA91 /* starterGameLevelList-iphone5.data in Resources */,
+				DD322D1D1AC8B2BB0044ACEE /* touch-25.mp3 in Resources */,
+				DD322D211AC8B2BB0044ACEE /* touch-29.mp3 in Resources */,
+				DD322D1A1AC8B2BB0044ACEE /* touch-22.mp3 in Resources */,
+				DD322D131AC8B2BB0044ACEE /* touch-15.mp3 in Resources */,
+				DD322D2C1AC8D5A70044ACEE /* best-score.mp3 in Resources */,
+				DD322D061AC8B2BB0044ACEE /* touch-2.mp3 in Resources */,
+				DD7284001AD60EEE00C32435 /* Instructions_iPhone.storyboard in Resources */,
+				DD322D181AC8B2BB0044ACEE /* touch-20.mp3 in Resources */,
+				DD2BDF111AD07E1700DD43C8 /* Multiplayer.storyboard in Resources */,
+				DD322D101AC8B2BB0044ACEE /* touch-12.mp3 in Resources */,
+				DD250E471AD4F82400696DC3 /* Main_iPhone.storyboard in Resources */,
+				DD322D241AC8B2BB0044ACEE /* touch-32.mp3 in Resources */,
+				DD322D3D1AC8F8EA0044ACEE /* locked@2x.png in Resources */,
+				DDD19C4C1AD72A190047E461 /* starterGameLevelList-iphone6p.data in Resources */,
+				DD322D161AC8B2BB0044ACEE /* touch-18.mp3 in Resources */,
+				DD322D0A1AC8B2BB0044ACEE /* touch-6.mp3 in Resources */,
+				DD322D1F1AC8B2BB0044ACEE /* touch-27.mp3 in Resources */,
+				DD322D1C1AC8B2BB0044ACEE /* touch-24.mp3 in Resources */,
+				DD010FB21AE0941B003967A2 /* starterGameLevelList-ipad.data in Resources */,
+				DDD0DDAA1AC2295600ABE897 /* Images.xcassets in Resources */,
+				DD322D0B1AC8B2BB0044ACEE /* touch-7.mp3 in Resources */,
+				DD5EB2731AC627C1007D47C0 /* score-board-shadow.png in Resources */,
+				DD322D0E1AC8B2BB0044ACEE /* touch-10.mp3 in Resources */,
+				DDD19C491AD72A190047E461 /* starterGameLevelList-iphone4.data in Resources */,
+				DDD0DDA11AC2295500ABE897 /* GameScene.sks in Resources */,
+				DDC3787C1AC3B0A400574851 /* stars-bg.png in Resources */,
+				DD322D381AC8F02D0044ACEE /* game-level-bg@2x.png in Resources */,
+				DD322D151AC8B2BB0044ACEE /* touch-17.mp3 in Resources */,
+				DD322D261AC8B2BB0044ACEE /* touch-34.mp3 in Resources */,
+				DD322D301AC8DFCB0044ACEE /* level-star@2x.png in Resources */,
+				DD322D031AC8B2BB0044ACEE /* star-2.mp3 in Resources */,
+				DD3CC53B1AF5F53900CADD1F /* AgainstTime.storyboard in Resources */,
+				DD322D0F1AC8B2BB0044ACEE /* touch-11.mp3 in Resources */,
+				DDC7C8901ADCB6B60027C44F /* iRate.bundle in Resources */,
+				DD322D1E1AC8B2BB0044ACEE /* touch-26.mp3 in Resources */,
+				DD3CC53F1AF5F58000CADD1F /* MultiplayerOnline_iPhone.storyboard in Resources */,
+				DD322D121AC8B2BB0044ACEE /* touch-14.mp3 in Resources */,
+				DD322D051AC8B2BB0044ACEE /* touch-1.mp3 in Resources */,
+				DD322D071AC8B2BB0044ACEE /* touch-3.mp3 in Resources */,
+				DDD19C4A1AD72A190047E461 /* starterGameLevelList-iphone6.data in Resources */,
+				DD322D3E1AC8F8EA0044ACEE /* locked.png in Resources */,
+				DD2BDF1D1AD07F2D00DD43C8 /* Localizable.strings in Resources */,
+				DD322D1B1AC8B2BB0044ACEE /* touch-23.mp3 in Resources */,
+				DD322CA61AC7BDFD0044ACEE /* yellow-star-icon.png in Resources */,
+				DD53EDE91ACB7A2F00700781 /* main-bg.mp3 in Resources */,
+				DDC378881AC4D34D00574851 /* Creator.storyboard in Resources */,
+				DDD0DDA81AC2295500ABE897 /* Main.storyboard in Resources */,
+				DDC3787A1AC3B09800574851 /* stars-bg@2x.png in Resources */,
+				DD322D171AC8B2BB0044ACEE /* touch-19.mp3 in Resources */,
+				DD322D091AC8B2BB0044ACEE /* touch-5.mp3 in Resources */,
+				DD322D231AC8B2BB0044ACEE /* touch-31.mp3 in Resources */,
+				DD322D221AC8B2BB0044ACEE /* touch-30.mp3 in Resources */,
+				DD322D111AC8B2BB0044ACEE /* touch-13.mp3 in Resources */,
+				DD322D141AC8B2BB0044ACEE /* touch-16.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDD0DDB01AC2295600ABE897 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DDD0DDC21AC22ABB00ABE897 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "TARGET=\"$PROJECT_DIR/Flash Memory/Info.plist\"\n\necho $TARGET\nif [ ! -f \"$TARGET\" ]; then\necho \"missing file $TARGET\"\nexit 1;\nfi\n\n#!/bin/bash\nbuildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"$TARGET\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"$TARGET\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDD0DD951AC2295500ABE897 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD322D341AC8E5BE0044ACEE /* GameStageCell.swift in Sources */,
+				DD8011C91AD8B2EE0040C99E /* MultiplayerOnlineViewController.swift in Sources */,
+				DDDF7B2A1ACEE21A00B97D6A /* MultiplayerViewController.swift in Sources */,
+				DD772A291ACDDCF20008EFC3 /* RandomGameStage.swift in Sources */,
+				DD322D321AC8E29F0044ACEE /* LevelMenuViewController.swift in Sources */,
+				DDD0DDE01AC26CD800ABE897 /* GameStage.swift in Sources */,
+				DD3CC5391AF493E200CADD1F /* Constants.swift in Sources */,
+				DD3CC53D1AF5F55500CADD1F /* AgainstTimeViewController.swift in Sources */,
+				DD772A271ACDDC4D0008EFC3 /* PracticeViewController.swift in Sources */,
+				DDC378861AC4D05600574851 /* CreatorViewController.swift in Sources */,
+				DD167F271ACE62A100980463 /* MPCManager.swift in Sources */,
+				DDD0DDA31AC2295500ABE897 /* GameScene.swift in Sources */,
+				DDD0DDA51AC2295500ABE897 /* GameViewController.swift in Sources */,
+				DD167F251ACE61E700980463 /* PlayersViewController.swift in Sources */,
+				DDC378831AC3C0ED00574851 /* Util.swift in Sources */,
+				DD322D3A1AC8F38F0044ACEE /* GameLevelHeader.swift in Sources */,
+				DD2BDF061ACF237700DD43C8 /* MBProgressHUD.m in Sources */,
+				DD2BDF0A1ACF9C9F00DD43C8 /* InstructionsViewController.swift in Sources */,
+				DDC378811AC3B8D400574851 /* UICountingLabel.m in Sources */,
+				DDC7C8911ADCB6B60027C44F /* iRate.m in Sources */,
+				DDD0DDDE1AC26C6300ABE897 /* GameLevel.swift in Sources */,
+				DDD0DD9F1AC2295500ABE897 /* AppDelegate.swift in Sources */,
+				DDD63B311AD73F21000B0F7C /* MultiplayerSession.swift in Sources */,
+				DDD0DDD41AC23DB100ABE897 /* SKBlock.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDD0DDAE1AC2295600ABE897 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDD0DDB91AC2295600ABE897 /* Flash_MemoryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDD0DDB41AC2295600ABE897 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDD0DD981AC2295500ABE897 /* Flash Memory */;
+			targetProxy = DDD0DDB31AC2295600ABE897 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD250E491AD4F82400696DC3 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD250E481AD4F82400696DC3 /* Base */,
+				DD250E4B1AD4F82700696DC3 /* pt */,
+				DD71FA081AD8038200D9E490 /* pt-PT */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		DD2BDF0E1AD07D6700DD43C8 /* Practice.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD2BDF0F1AD07D8300DD43C8 /* Base */,
+				DD2BDF101AD07D8900DD43C8 /* pt */,
+				DD71FA0C1AD8038200D9E490 /* pt-PT */,
+			);
+			name = Practice.storyboard;
+			sourceTree = "<group>";
+		};
+		DD2BDF131AD07E1700DD43C8 /* Multiplayer.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD2BDF121AD07E1700DD43C8 /* Base */,
+				DD2BDF211AD09FA600DD43C8 /* pt */,
+				DD71FA0D1AD8038300D9E490 /* pt-PT */,
+			);
+			name = Multiplayer.storyboard;
+			sourceTree = "<group>";
+		};
+		DD2BDF181AD07ED100DD43C8 /* Instructions.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD2BDF171AD07ED100DD43C8 /* Base */,
+				DD2BDF1A1AD07ED500DD43C8 /* pt */,
+				DD71FA0E1AD8038300D9E490 /* pt-PT */,
+			);
+			name = Instructions.storyboard;
+			sourceTree = "<group>";
+		};
+		DD2BDF1F1AD07F2D00DD43C8 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD2BDF1E1AD07F2D00DD43C8 /* Base */,
+				DD2BDF201AD07F3100DD43C8 /* pt */,
+				DD71FA111AD8038600D9E490 /* pt-PT */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		DD2BDF241AD0A8BD00DD43C8 /* best-score.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD2BDF231AD0A8BD00DD43C8 /* Base */,
+				DD2BDF251AD0A8C200DD43C8 /* pt */,
+				DD71FA101AD8038500D9E490 /* pt-PT */,
+			);
+			name = "best-score.png";
+			sourceTree = "<group>";
+		};
+		DD2BDF281AD0A8C700DD43C8 /* best-score@2x.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD2BDF271AD0A8C700DD43C8 /* Base */,
+				DD2BDF2A1AD0A8E400DD43C8 /* pt */,
+				DD71FA0F1AD8038400D9E490 /* pt-PT */,
+			);
+			name = "best-score@2x.png";
+			sourceTree = "<group>";
+		};
+		DD7284021AD60EEE00C32435 /* Instructions_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD7284011AD60EEE00C32435 /* Base */,
+				DD7284041AD60EF500C32435 /* pt */,
+				DD71FA0A1AD8038200D9E490 /* pt-PT */,
+			);
+			name = Instructions_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		DD762C621AD64CE9006DBBFA /* Practice_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD762C611AD64CE9006DBBFA /* Base */,
+				DD762C641AD64CF0006DBBFA /* pt */,
+				DD71FA091AD8038200D9E490 /* pt-PT */,
+			);
+			name = Practice_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		DD8011CD1AD8FABF0040C99E /* MultiplayerOnline.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD8011CC1AD8FABF0040C99E /* Base */,
+				DD8011CF1AD8FADE0040C99E /* pt */,
+				DD8011D01AD8FAE50040C99E /* pt-PT */,
+			);
+			name = MultiplayerOnline.storyboard;
+			sourceTree = "<group>";
+		};
+		DDD0DDA61AC2295500ABE897 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDD0DDA71AC2295500ABE897 /* Base */,
+				DD2BDF0B1AD07BBF00DD43C8 /* pt */,
+				DD71FA0B1AD8038200D9E490 /* pt-PT */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDD0DDBA1AC2295600ABE897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		DDD0DDBB1AC2295600ABE897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDD0DDBD1AC2295600ABE897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Lite";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Flash Memory/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "Flash Memory";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Flash Memory/Flash Memory-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDD0DDBE1AC2295600ABE897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Lite";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Flash Memory/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
+				PRODUCT_NAME = "Flash Memory";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Flash Memory/Flash Memory-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DDD0DDC01AC2295600ABE897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Flash MemoryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "Flash MemoryTests";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flash Memory.app/Flash Memory";
+			};
+			name = Debug;
+		};
+		DDD0DDC11AC2295600ABE897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Flash MemoryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "Flash MemoryTests";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flash Memory.app/Flash Memory";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDD0DD941AC2295500ABE897 /* Build configuration list for PBXProject "Flash Memory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDD0DDBA1AC2295600ABE897 /* Debug */,
+				DDD0DDBB1AC2295600ABE897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDD0DDBC1AC2295600ABE897 /* Build configuration list for PBXNativeTarget "Flash Memory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDD0DDBD1AC2295600ABE897 /* Debug */,
+				DDD0DDBE1AC2295600ABE897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDD0DDBF1AC2295600ABE897 /* Build configuration list for PBXNativeTarget "Flash MemoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDD0DDC01AC2295600ABE897 /* Debug */,
+				DDD0DDC11AC2295600ABE897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDD0DD911AC2295500ABE897 /* Project object */;
+}
