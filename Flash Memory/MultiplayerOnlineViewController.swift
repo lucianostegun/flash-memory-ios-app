@@ -152,7 +152,7 @@ class MultiplayerOnlineViewController: UIViewController, UIAlertViewDelegate {
             
             if( appDelegate.bannerType == "apple" ){
                 
-                if( DeviceIdiom.IS_IPAD ){
+                if( Constants.DeviceIdiom.IS_IPAD ){
                     
                     iAdBannerView.frame  = CGRectMake(0, 702, 1024, 60);
                 }else{
@@ -169,7 +169,7 @@ class MultiplayerOnlineViewController: UIViewController, UIAlertViewDelegate {
                 var bannerView_ : GADBannerView!;
                 var adSize = kGADAdSizeBanner;
                 
-                if( DeviceIdiom.IS_IPAD ){
+                if( Constants.DeviceIdiom.IS_IPAD ){
                     
                     adSize = kGADAdSizeSmartBannerLandscape;
                 }

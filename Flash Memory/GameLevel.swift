@@ -53,20 +53,10 @@ class GameLevel : NSObject, NSCoding {
     
     func addStage(gamePath: Array<CGPoint>){
         
-        self.addStage(gamePath, setAsCurrent: false);
-    }
-    
-    func addStage(gamePath: Array<CGPoint>, setAsCurrent: Bool){
-        
         var gameStage = GameStage();
         gameStage.gamePath = gamePath;
         
         self.gameStageList.append(gameStage);
-        
-        if( setAsCurrent ){
-            
-            self.currentStage = self.gameStageList.count-1;
-        }
     }
     
     func removeStage(index: Int){
@@ -156,16 +146,16 @@ class GameLevel : NSObject, NSCoding {
     
     class func getStarterFileName() -> String {
         
-        if( DeviceType.IS_IPHONE_4_OR_LESS ){
+        if( Constants.DeviceType.IS_IPHONE_4_OR_LESS ){
             
             return "starterGameLevelList-iphone4";
-        }else if( DeviceType.IS_IPHONE_5 ){
+        }else if( Constants.DeviceType.IS_IPHONE_5 ){
             
             return "starterGameLevelList-iphone5";
-        }else if( DeviceType.IS_IPHONE_6 ){
+        }else if( Constants.DeviceType.IS_IPHONE_6 ){
             
             return "starterGameLevelList-iphone6";
-        }else if( DeviceType.IS_IPHONE_6P ){
+        }else if( Constants.DeviceType.IS_IPHONE_6P ){
             
             return "starterGameLevelList-iphone6p";
         }

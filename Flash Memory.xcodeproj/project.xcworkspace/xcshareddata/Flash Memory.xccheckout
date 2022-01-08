@@ -11,24 +11,24 @@
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>531c19ac-415f-4540-83aa-1ca632b0dbdf++4350</key>
-		<string>http://svn.stegun.com/ios/trunk/irank_timer</string>
-		<key>531c19ac-415f-4540-83aa-1ca632b0dbdf++6651</key>
 		<string>http://svn.stegun.com/ios/trunk/flash_memory</string>
+		<key>531c19ac-415f-4540-83aa-1ca632b0dbdf++6137</key>
+		<string>http://svn.stegun.com/ios/trunk/irank_timer</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Flash Memory.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>531c19ac-415f-4540-83aa-1ca632b0dbdf++4350</key>
-		<string>../../..</string>
-		<key>531c19ac-415f-4540-83aa-1ca632b0dbdf++6651</key>
 		<string>../..</string>
+		<key>531c19ac-415f-4540-83aa-1ca632b0dbdf++6137</key>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectRepositoryRootDictionary</key>
 	<dict>
 		<key>531c19ac-415f-4540-83aa-1ca632b0dbdf++4350</key>
 		<string>http://svn.stegun.com/ios</string>
-		<key>531c19ac-415f-4540-83aa-1ca632b0dbdf++6651</key>
+		<key>531c19ac-415f-4540-83aa-1ca632b0dbdf++6137</key>
 		<string>http://svn.stegun.com/ios</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -36,14 +36,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>531c19ac-415f-4540-83aa-1ca632b0dbdf++6651</string>
+	<string>531c19ac-415f-4540-83aa-1ca632b0dbdf++4350</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.subversion</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>531c19ac-415f-4540-83aa-1ca632b0dbdf++4350</string>
+			<string>531c19ac-415f-4540-83aa-1ca632b0dbdf++6137</string>
 			<key>IDESourceControlWCCName</key>
 			<string></string>
 		</dict>
@@ -51,7 +51,7 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.subversion</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>531c19ac-415f-4540-83aa-1ca632b0dbdf++6651</string>
+			<string>531c19ac-415f-4540-83aa-1ca632b0dbdf++4350</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Flash%20Memory</string>
 		</dict>

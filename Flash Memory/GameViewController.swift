@@ -120,7 +120,7 @@ class GameViewController: UIViewController, GKGameCenterControllerDelegate, ADBa
             
             if( appDelegate.bannerType == "apple" ){
                 
-                if( DeviceIdiom.IS_IPAD ){
+                if( Constants.DeviceIdiom.IS_IPAD ){
                     
                     iAdBannerView.frame  = CGRectMake(0, 702, 1024, 60);
                 }else{
@@ -137,7 +137,7 @@ class GameViewController: UIViewController, GKGameCenterControllerDelegate, ADBa
                 var bannerView_ : GADBannerView!;
                 var adSize = kGADAdSizeBanner;
                 
-                if( DeviceIdiom.IS_IPAD ){
+                if( Constants.DeviceIdiom.IS_IPAD ){
                     
                     adSize = kGADAdSizeSmartBannerLandscape;
                 }
@@ -152,7 +152,7 @@ class GameViewController: UIViewController, GKGameCenterControllerDelegate, ADBa
             }
         }
         
-        if( DeviceIdiom.IS_IPHONE ){
+        if( Constants.DeviceIdiom.IS_IPHONE ){
 
             btnCreator.frame.origin.x = vwMainMenu.frame.origin.x;
             btnCreator.frame.origin.y = vwMainMenu.frame.origin.y + vwMainMenu.frame.size.height;
@@ -384,7 +384,7 @@ class GameViewController: UIViewController, GKGameCenterControllerDelegate, ADBa
 
         self.view.addSubview(levelMenuView)
         
-        if( DeviceIdiom.IS_IPHONE ){
+        if( Constants.DeviceIdiom.IS_IPHONE ){
             
             levelMenuView.frame.size.width  = 288;
             levelMenuView.frame.size.height = 420;
@@ -542,7 +542,7 @@ class GameViewController: UIViewController, GKGameCenterControllerDelegate, ADBa
     
     @IBAction func loadLevelCreator(sender: AnyObject) {
         
-        var storyboardName = DeviceIdiom.IS_IPAD ? "Creator" : "Creator_iPhone";
+        var storyboardName = Constants.DeviceIdiom.IS_IPAD ? "Creator" : "Creator_iPhone";
         let storyboard = UIStoryboard(name: storyboardName, bundle: nil);
         let vc         = storyboard.instantiateInitialViewController() as! CreatorViewController;
         
@@ -553,20 +553,10 @@ class GameViewController: UIViewController, GKGameCenterControllerDelegate, ADBa
     
     @IBAction func loadPracticeMode(sender: AnyObject) {
         
-        var storyboardName = DeviceIdiom.IS_IPAD ? "Practice" : "Practice_iPhone";
+        var storyboardName = Constants.DeviceIdiom.IS_IPAD ? "Practice" : "Practice_iPhone";
         
         let storyboard = UIStoryboard(name: storyboardName, bundle: nil);
         let vc         = storyboard.instantiateInitialViewController() as! PracticeViewController;
-        
-        self.presentViewController(vc, animated: true, completion: nil);
-    }
-    
-    @IBAction func loadAgainstTimeMode(sender: AnyObject) {
-        
-        var storyboardName = DeviceIdiom.IS_IPAD ? "AgainstTime" : "Practice_iPhone";
-        
-        let storyboard = UIStoryboard(name: storyboardName, bundle: nil);
-        let vc         = storyboard.instantiateInitialViewController() as! AgainstTimeViewController;
         
         self.presentViewController(vc, animated: true, completion: nil);
     }
@@ -587,7 +577,7 @@ class GameViewController: UIViewController, GKGameCenterControllerDelegate, ADBa
         self.presentingViewController?.dismissViewControllerAnimated(true, completion: nil)
         self.presentedViewController?.dismissViewControllerAnimated(true, completion: nil)
         
-        var storyboardName = DeviceIdiom.IS_IPAD ? "MultiplayerOnline" : "MultiplayerOnline_iPhone";
+        var storyboardName = Constants.DeviceIdiom.IS_IPAD ? "MultiplayerOnline" : "MultiplayerOnline_iPhone";
         let storyboard     = UIStoryboard(name: storyboardName, bundle: nil)
         let vc             = storyboard.instantiateInitialViewController() as! MultiplayerOnlineViewController;
         
@@ -596,7 +586,7 @@ class GameViewController: UIViewController, GKGameCenterControllerDelegate, ADBa
     
     @IBAction func loadInstructionsStoryboard(sender: AnyObject) {
         
-        var storyboardName = DeviceIdiom.IS_IPAD ? "Instructions" : "Instructions_iPhone";
+        var storyboardName = Constants.DeviceIdiom.IS_IPAD ? "Instructions" : "Instructions_iPhone";
         let storyboard     = UIStoryboard(name: storyboardName, bundle: nil);
         let vc             = storyboard.instantiateInitialViewController() as! InstructionsViewController;
         
@@ -661,7 +651,7 @@ class GameViewController: UIViewController, GKGameCenterControllerDelegate, ADBa
             vwScoreBoard.tag = 1;
             self.view.addSubview(vwScoreBoard);
             vwScoreBoard.frame.origin.x = (Util.getScreenWidth(self.view) / 2) - (vwScoreBoard.frame.width / 2);
-            vwScoreBoard.frame.origin.y = (Util.getScreenHeight(self.view) / 2) - (vwScoreBoard.frame.height / 2) + ( DeviceType.IS_IPHONE_4_OR_LESS ? 25 : 0 );
+            vwScoreBoard.frame.origin.y = (Util.getScreenHeight(self.view) / 2) - (vwScoreBoard.frame.height / 2) + ( Constants.DeviceType.IS_IPHONE_4_OR_LESS ? 25 : 0 );
         }
         
         vwScoreBoard.hidden = false;
@@ -773,7 +763,7 @@ class GameViewController: UIViewController, GKGameCenterControllerDelegate, ADBa
     
     func updateResumeLabels(){
 
-        if( DeviceIdiom.IS_IPAD ){
+        if( Constants.DeviceIdiom.IS_IPAD ){
 
             lblCurrentLevel.text = String(format: NSLocalizedString("Level", comment: "") + " %02d", gameScene.gameLevel.levelNumber);
             lblCurrentStage.text = String(format: NSLocalizedString("Stage", comment: "") + " %02d/%02d", gameScene.gameLevel.currentStage+1, gameScene.gameLevel.stages());
@@ -814,7 +804,7 @@ class GameViewController: UIViewController, GKGameCenterControllerDelegate, ADBa
         lblLevel.text = String(format: NSLocalizedString("Level", comment: "") + " %02d", gameLevel.levelNumber);
         lblStage.text = String(format: NSLocalizedString("Stage", comment: "") + " %02d/%02d", gameLevel.currentStage+1, gameLevel.stages());
         
-        if( gameLevel.currentStage == gameLevel.stages()-1 && DeviceIdiom.IS_IPAD ){
+        if( gameLevel.currentStage == gameLevel.stages()-1 && Constants.DeviceIdiom.IS_IPAD ){
             
             lblStage.text = NSLocalizedString("Stage clear", comment: "");
         }

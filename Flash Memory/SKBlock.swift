@@ -21,7 +21,6 @@ class SKBlock: SKSpriteNode {
     var colorName : String = "black";
     var blinking : Bool = false;
     var blinkTimer : NSTimer!;
-    var isSpecial : Bool = false;
     
     func orangeColor(){
         
@@ -69,12 +68,6 @@ class SKBlock: SKSpriteNode {
         }
     }
     
-    func setSpecial(){
-        
-        isSpecial = true;
-        self.color = UIColor(red: 0/255, green: 192/255, blue: 255/255, alpha: 1);
-    }
-    
     func startBlinking(){
         
         if( blinking ){
@@ -115,10 +108,5 @@ class SKBlock: SKSpriteNode {
         self.stopBlinking();
         self.blackColor();
         self.alpha = Block.baseAlpha
-    }
-    
-    override var description : String {
-        
-        return "<SKBlock: name: \(name), position: \(position), color: \(color), colorName: \(colorName), isSpecial: \(isSpecial)>";
     }
 }

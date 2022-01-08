@@ -92,7 +92,7 @@ class RandomGameStage : NSObject {
                         continue;
                 }
                 
-                if( position.x <= Block.blockSize || position.x >= boundsWidth-Block.blockSize || position.y <= (Block.blockSize * 2) || position.y >= boundsHeight-Block.blockSize ){
+                if( position.x <= Block.blockSize || position.x >= boundsWidth-Block.blockSize || position.y <= Block.blockSize || position.y >= boundsHeight-Block.blockSize ){
                     
                     continue;
                 }
@@ -128,11 +128,11 @@ class RandomGameStage : NSObject {
                     continue;
                 }
                 
-//                println("direction: \(direction), lastDirection: \(lastDirection) = \(position), edges: \(edges), distance: \(distance)");
-//                println("\(positionNorthwest.x),\(positionNorthwest.y) | \(positionNorth.x),\(positionNorth.y) | \(positionNortheast.x),\(positionNortheast.y) | ");
-//                println("\(positionWest.x),\(positionWest.y) | \(position.x),\(position.y) | \(positionEast.x),\(positionEast.y) | ");
-//                println("\(positionSouthwest.x),\(positionSouthwest.y) | \(positionSouth.x),\(positionSouth.y) | \(positionSoutheast.x),\(positionSoutheast.y) | ");
-//                println("-------------------------------------------");
+                //                println("direction: \(direction), lastDirection: \(lastDirection) = \(position), edges: \(edges), distance: \(distance)");
+                //                println("\(positionNorthwest.x),\(positionNorthwest.y) | \(positionNorth.x),\(positionNorth.y) | \(positionNortheast.x),\(positionNortheast.y) | ");
+                //                println("\(positionWest.x),\(positionWest.y) | \(position.x),\(position.y) | \(positionEast.x),\(positionEast.y) | ");
+                //                println("\(positionSouthwest.x),\(positionSouthwest.y) | \(positionSouth.x),\(positionSouth.y) | \(positionSoutheast.x),\(positionSoutheast.y) | ");
+                //                println("-------------------------------------------");
                 
                 lastDirection = direction;
                 lastPosition  = position;

@@ -73,10 +73,6 @@
 		DD322D3D1AC8F8EA0044ACEE /* locked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD322D3B1AC8F8EA0044ACEE /* locked@2x.png */; };
 		DD322D3E1AC8F8EA0044ACEE /* locked.png in Resources */ = {isa = PBXBuildFile; fileRef = DD322D3C1AC8F8EA0044ACEE /* locked.png */; };
 		DD3CC5391AF493E200CADD1F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3CC5381AF493E200CADD1F /* Constants.swift */; };
-		DD3CC53B1AF5F53900CADD1F /* AgainstTime.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD3CC53A1AF5F53900CADD1F /* AgainstTime.storyboard */; };
-		DD3CC53D1AF5F55500CADD1F /* AgainstTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3CC53C1AF5F55500CADD1F /* AgainstTimeViewController.swift */; };
-		DD3CC53F1AF5F58000CADD1F /* MultiplayerOnline_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD3CC53E1AF5F58000CADD1F /* MultiplayerOnline_iPhone.storyboard */; };
-		DD3CC5411AF5F59E00CADD1F /* special-block.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD3CC5401AF5F59E00CADD1F /* special-block.mp3 */; };
 		DD53EDE91ACB7A2F00700781 /* main-bg.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD53EDE81ACB7A2F00700781 /* main-bg.mp3 */; };
 		DD54E1781AD87775006DBA91 /* starterGameLevelList-iphone5.data in Resources */ = {isa = PBXBuildFile; fileRef = DD54E1771AD87775006DBA91 /* starterGameLevelList-iphone5.data */; };
 		DD5EB2721AC627C1007D47C0 /* score-board-shadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD5EB2701AC627C1007D47C0 /* score-board-shadow@2x.png */; };
@@ -201,10 +197,6 @@
 		DD322D3B1AC8F8EA0044ACEE /* locked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "locked@2x.png"; sourceTree = "<group>"; };
 		DD322D3C1AC8F8EA0044ACEE /* locked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = locked.png; sourceTree = "<group>"; };
 		DD3CC5381AF493E200CADD1F /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		DD3CC53A1AF5F53900CADD1F /* AgainstTime.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AgainstTime.storyboard; sourceTree = "<group>"; };
-		DD3CC53C1AF5F55500CADD1F /* AgainstTimeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgainstTimeViewController.swift; sourceTree = "<group>"; };
-		DD3CC53E1AF5F58000CADD1F /* MultiplayerOnline_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MultiplayerOnline_iPhone.storyboard; sourceTree = "<group>"; };
-		DD3CC5401AF5F59E00CADD1F /* special-block.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "special-block.mp3"; sourceTree = "<group>"; };
 		DD53EDE81ACB7A2F00700781 /* main-bg.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "main-bg.mp3"; sourceTree = "<group>"; };
 		DD54E1771AD87775006DBA91 /* starterGameLevelList-iphone5.data */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "starterGameLevelList-iphone5.data"; sourceTree = "<group>"; };
 		DD5EB2701AC627C1007D47C0 /* score-board-shadow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "score-board-shadow@2x.png"; sourceTree = "<group>"; };
@@ -295,7 +287,6 @@
 				DD8011CD1AD8FABF0040C99E /* MultiplayerOnline.storyboard */,
 				DDC378871AC4D34D00574851 /* Creator.storyboard */,
 				DD2BDF181AD07ED100DD43C8 /* Instructions.storyboard */,
-				DD3CC53A1AF5F53900CADD1F /* AgainstTime.storyboard */,
 			);
 			name = iPad;
 			sourceTree = "<group>";
@@ -307,7 +298,6 @@
 				DD250E411AD4CD4000696DC3 /* Creator_iPhone.storyboard */,
 				DD762C621AD64CE9006DBBFA /* Practice_iPhone.storyboard */,
 				DD010FA71ADF7458003967A2 /* Multiplayer_iPhone.storyboard */,
-				DD3CC53E1AF5F58000CADD1F /* MultiplayerOnline_iPhone.storyboard */,
 				DD7284021AD60EEE00C32435 /* Instructions_iPhone.storyboard */,
 			);
 			name = iPhone;
@@ -332,7 +322,6 @@
 		DDC378841AC3C0F000574851 /* classes */ = {
 			isa = PBXGroup;
 			children = (
-				DDD0DDD31AC23DB100ABE897 /* SKBlock.swift */,
 				DDC378821AC3C0ED00574851 /* Util.swift */,
 				DD322D331AC8E5BE0044ACEE /* GameStageCell.swift */,
 				DD322D391AC8F38F0044ACEE /* GameLevelHeader.swift */,
@@ -348,7 +337,6 @@
 		DDC378891AC4D6FE00574851 /* sound */ = {
 			isa = PBXGroup;
 			children = (
-				DD3CC5401AF5F59E00CADD1F /* special-block.mp3 */,
 				DD53EDE81ACB7A2F00700781 /* main-bg.mp3 */,
 				DD322D2B1AC8D5A70044ACEE /* best-score.mp3 */,
 				DD322CDD1AC8B2BB0044ACEE /* star-1.mp3 */,
@@ -431,7 +419,7 @@
 				DDDF7B291ACEE21A00B97D6A /* MultiplayerViewController.swift */,
 				DD8011C81AD8B2EE0040C99E /* MultiplayerOnlineViewController.swift */,
 				DD2BDF091ACF9C9F00DD43C8 /* InstructionsViewController.swift */,
-				DD3CC53C1AF5F55500CADD1F /* AgainstTimeViewController.swift */,
+				DDD0DDD31AC23DB100ABE897 /* SKBlock.swift */,
 				DD250E401AD4CD0D00696DC3 /* iPhone */,
 				DD250E3F1AD4CD0400696DC3 /* iPad */,
 				DDD0DDA91AC2295600ABE897 /* Images.xcassets */,
@@ -601,7 +589,6 @@
 				DD322D371AC8F02D0044ACEE /* game-level-bg.png in Resources */,
 				DD2BDF221AD0A8BD00DD43C8 /* best-score.png in Resources */,
 				DD2BDF261AD0A8C700DD43C8 /* best-score@2x.png in Resources */,
-				DD3CC5411AF5F59E00CADD1F /* special-block.mp3 in Resources */,
 				DD322D0D1AC8B2BB0044ACEE /* touch-9.mp3 in Resources */,
 				DD322D021AC8B2BB0044ACEE /* star-1.mp3 in Resources */,
 				DD322D201AC8B2BB0044ACEE /* touch-28.mp3 in Resources */,
@@ -637,11 +624,9 @@
 				DD322D261AC8B2BB0044ACEE /* touch-34.mp3 in Resources */,
 				DD322D301AC8DFCB0044ACEE /* level-star@2x.png in Resources */,
 				DD322D031AC8B2BB0044ACEE /* star-2.mp3 in Resources */,
-				DD3CC53B1AF5F53900CADD1F /* AgainstTime.storyboard in Resources */,
 				DD322D0F1AC8B2BB0044ACEE /* touch-11.mp3 in Resources */,
 				DDC7C8901ADCB6B60027C44F /* iRate.bundle in Resources */,
 				DD322D1E1AC8B2BB0044ACEE /* touch-26.mp3 in Resources */,
-				DD3CC53F1AF5F58000CADD1F /* MultiplayerOnline_iPhone.storyboard in Resources */,
 				DD322D121AC8B2BB0044ACEE /* touch-14.mp3 in Resources */,
 				DD322D051AC8B2BB0044ACEE /* touch-1.mp3 in Resources */,
 				DD322D071AC8B2BB0044ACEE /* touch-3.mp3 in Resources */,
@@ -700,7 +685,6 @@
 				DD322D321AC8E29F0044ACEE /* LevelMenuViewController.swift in Sources */,
 				DDD0DDE01AC26CD800ABE897 /* GameStage.swift in Sources */,
 				DD3CC5391AF493E200CADD1F /* Constants.swift in Sources */,
-				DD3CC53D1AF5F55500CADD1F /* AgainstTimeViewController.swift in Sources */,
 				DD772A271ACDDC4D0008EFC3 /* PracticeViewController.swift in Sources */,
 				DDC378861AC4D05600574851 /* CreatorViewController.swift in Sources */,
 				DD167F271ACE62A100980463 /* MPCManager.swift in Sources */,

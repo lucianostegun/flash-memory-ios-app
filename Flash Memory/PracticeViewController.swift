@@ -92,7 +92,7 @@ class PracticeViewController: UIViewController, ADBannerViewDelegate {
         
         super.viewWillAppear(animated);
         
-        if( DeviceIdiom.IS_IPHONE ){
+        if( Constants.DeviceIdiom.IS_IPHONE ){
             
             vwMainMenu.frame.origin.x = (Util.getScreenWidth(self.view) / 2) - (vwMainMenu.frame.size.width / 2);
             vwMainMenu.frame.origin.y = (Util.getScreenHeight(self.view) / 2) - (vwMainMenu.frame.size.height / 2);
@@ -109,7 +109,7 @@ class PracticeViewController: UIViewController, ADBannerViewDelegate {
             
             if( appDelegate.bannerType == "apple" ){
                 
-                if( DeviceIdiom.IS_IPAD ){
+                if( Constants.DeviceIdiom.IS_IPAD ){
                     
                     iAdBannerView.frame  = CGRectMake(0, 702, 1024, 60);
                 }else{
@@ -126,7 +126,7 @@ class PracticeViewController: UIViewController, ADBannerViewDelegate {
                 var bannerView_ : GADBannerView!;
                 var adSize = kGADAdSizeBanner;
                 
-                if( DeviceIdiom.IS_IPAD ){
+                if( Constants.DeviceIdiom.IS_IPAD ){
                     
                     adSize = kGADAdSizeSmartBannerLandscape;
                 }
@@ -306,7 +306,7 @@ class PracticeViewController: UIViewController, ADBannerViewDelegate {
         
         var difficultyLabel = NSLocalizedString("difficulty.\(difficulty)", comment: "");
         
-        if( DeviceIdiom.IS_IPAD ){
+        if( Constants.DeviceIdiom.IS_IPAD ){
             
             difficultyLabel = NSLocalizedString("Difficulty", comment: "") + ": " + difficultyLabel;
         }
@@ -330,7 +330,7 @@ class PracticeViewController: UIViewController, ADBannerViewDelegate {
             vwScoreBoard.tag = 1;
             self.view.addSubview(vwScoreBoard);
             vwScoreBoard.frame.origin.x = (Util.getScreenWidth(self.view) / 2) - (vwScoreBoard.frame.width / 2);
-            vwScoreBoard.frame.origin.y = (Util.getScreenHeight(self.view) / 2) - (vwScoreBoard.frame.height / 2) + ( DeviceType.IS_IPHONE_4_OR_LESS ? 25 : 0 );
+            vwScoreBoard.frame.origin.y = (Util.getScreenHeight(self.view) / 2) - (vwScoreBoard.frame.height / 2) + ( Constants.DeviceType.IS_IPHONE_4_OR_LESS ? 25 : 0 );
         }
         
         vwScoreBoard.hidden = false;

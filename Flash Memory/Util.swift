@@ -50,8 +50,8 @@ class Util {
         var width  = view.frame.size.width;
         var height = view.frame.size.height;
         
-        if( DeviceIdiom.IS_IPAD && height > width ||
-            DeviceIdiom.IS_IPHONE && width > height ){
+        if( Constants.DeviceIdiom.IS_IPAD && height > width ||
+            Constants.DeviceIdiom.IS_IPHONE && width > height ){
                 
                 width = height;
         }
@@ -64,14 +64,28 @@ class Util {
         var width  = view.frame.size.width;
         var height = view.frame.size.height;
         
-        if( DeviceIdiom.IS_IPAD && height > width ||
-            DeviceIdiom.IS_IPHONE && width > height ){
+        if( Constants.DeviceIdiom.IS_IPAD && height > width ||
+            Constants.DeviceIdiom.IS_IPHONE && width > height ){
                 
                 height = width;
         }
         
         return height;
     }
+}
+
+struct Direction {
+    
+    static let NONE  = 0;
+    static let UP    = 1;
+    static let RIGHT = 2;
+    static let DOWN  = 3;
+    static let LEFT  = 4;
+    
+    static let RIGHT_UP   = 5;
+    static let RIGHT_DOWN = 6;
+    static let LEFT_UP    = 7;
+    static let LEFT_DOWN  = 8;
 }
 
 extension UIColor {

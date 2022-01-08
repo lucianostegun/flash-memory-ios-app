@@ -34,9 +34,6 @@ class GameScene: SKScene {
     var horizontalBlocks : Int = 0;
     var verticalBlocks : Int   = 0;
     
-    var blockNumber : Int             = 0;
-    var nextSpecialBlockNumber : Int! = nil;
-    
     override func didMoveToView(view: SKView) {
         
         drawBackground(view);
@@ -248,11 +245,6 @@ class GameScene: SKScene {
             addPointToPath(block.position);
         }
         
-        if( block.isSpecial ){
-            
-            NSNotificationCenter.defaultCenter().postNotificationName("touchedSpecialBlock", object:block);
-        }
-        
         lastTouchPosition = block.position;
         block.yellowColor();
         block.alpha = Block.activeAlpha;
@@ -422,6 +414,51 @@ class GameScene: SKScene {
         self.addChild(background)
     }
     
+    func drawGridLines(view: SKView){
+        
+        var x = Block.blockSize;
+        
+        while( x < view.bounds.size.width ){
+            
+            var line : SKShapeNode = SKShapeNode();
+            let startPoint : CGPoint = CGPointMake(CGFloat(x), 0)
+            let endPoint : CGPoint = CGPointMake(CGFloat(x), view.bounds.size.height)
+            
+            var pathToDraw : CGMutablePathRef = CGPathCreateMutable();
+            CGPathMoveToPoint(pathToDraw, nil, startPoint.x, startPoint.y);
+            CGPathAddLineToPoint(pathToDraw, nil, endPoint.x, endPoint.y);
+            
+            line.path = pathToDraw;
+            line.strokeColor = UIColor.darkGrayColor();
+            line.alpha = 0.5;
+            line.lineWidth = 0.5;
+            self.addChild(line);
+            
+            x += Block.blockSize;
+        }
+        
+        var y = Block.blockSize;
+        
+        while( y < view.bounds.size.height ){
+            
+            var line : SKShapeNode = SKShapeNode();
+            let startPoint : CGPoint = CGPointMake(0, CGFloat(y))
+            let endPoint : CGPoint = CGPointMake(view.bounds.size.width, CGFloat(y))
+            
+            var pathToDraw : CGMutablePathRef = CGPathCreateMutable();
+            CGPathMoveToPoint(pathToDraw, nil, startPoint.x, startPoint.y);
+            CGPathAddLineToPoint(pathToDraw, nil, endPoint.x, endPoint.y);
+            
+            line.path = pathToDraw;
+            line.strokeColor = UIColor.darkGrayColor();
+            line.alpha = 0.5;
+            line.lineWidth = 0.5;
+            self.addChild(line);
+            
+            y += Block.blockSize;
+        }
+    }
+    
     func drawBaseBlocks(view: SKView){
         
         var boundsWidth  = view.frame.size.width;
@@ -477,7 +514,7 @@ class GameScene: SKScene {
         }
     }
     
-    func drawFlashingBlock(position: CGPoint, color: String, waitDuration: Double, duration: Double) -> SKBlock {
+    func drawFlashingBlock(position: CGPoint, color: String, waitDuration: Double, duration: Double){
         
         var block: SKBlock = SKBlock();
         block.size = CGSizeMake(Block.blockSize-1.0, Block.blockSize-1.0);
@@ -495,8 +532,6 @@ class GameScene: SKScene {
         let sequence = [waitAction, fadeAction, removeAction];
         
         block.runAction(SKAction.sequence(sequence));
-        
-        return block;
     }
     
     func redrawCreatorPath(animated: Bool){
@@ -682,7 +717,6 @@ class GameScene: SKScene {
                 node.removeAllActions();
                 (node as! SKBlock).blackColor();
                 (node as! SKBlock).stopBlinking();
-                (node as! SKBlock).isSpecial = false;
                 node.alpha = Block.baseAlpha;
             }
         }
@@ -799,33 +833,12 @@ class GameScene: SKScene {
     
     func flashGameBlocks(){
         
-        var key : Int = 0;
         for position in gamePath {
             
-            var block = drawFlashingBlock(position,
+            drawFlashingBlock(position,
                 color: "yellow",
                 waitDuration: gameLevel.flashDuration,
                 duration: 1.0);
-            
-            blockNumber++;
-            
-            if( nextSpecialBlockNumber != nil && blockNumber == nextSpecialBlockNumber ){
-                
-                if( key == 0 || key == gamePath.count ){
-                    
-                    nextSpecialBlockNumber = nextSpecialBlockNumber + 1;
-                }else{
-                    
-                    block.setSpecial();
-                    
-                    block = self.getBaseBlockAtPoint(block.position);
-                        
-                    block.isSpecial = true;
-                    nextSpecialBlockNumber = nil;
-                }
-            }
-            
-            key++;
         }
     }
     
@@ -858,22 +871,5 @@ class GameScene: SKScene {
 
             self.runAction(SKAction.sequence(sequence));
         }
-    }
-    
-    func getBaseBlockAtPoint(position: CGPoint) -> SKBlock! {
-        
-        var nodeList : Array<SKNode>! = self.nodesAtPoint(position) as! Array<SKNode>
-        
-        var block : SKBlock!;
-        
-        for node in nodeList {
-            
-            if( node.name == "base-block" ){
-                
-                return (node as! SKBlock);
-            }
-        }
-        
-        return nil;
     }
 }

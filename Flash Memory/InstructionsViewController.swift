@@ -178,16 +178,16 @@ class InstructionsViewController: UIViewController {
         
         var gamePath = ["{336, 592}", "{336, 624}", "{336, 656}", "{368, 656}", "{400, 656}", "{432, 656}", "{464, 656}", "{464, 624}", "{464, 592}", "{496, 592}", "{528, 592}", "{560, 592}", "{592, 592}", "{624, 592}", "{656, 592}", "{688, 592}", "{688, 624}", "{688, 656}", "{656, 656}", "{624, 656}", "{592, 656}"];
         
-        if( DeviceType.IS_IPHONE_4_OR_LESS ){
+        if( Constants.DeviceType.IS_IPHONE_4_OR_LESS ){
             
             gamePath = ["{48, 336}", "{48, 368}", "{48, 400}", "{48, 432}", "{80, 432}", "{112, 432}", "{112, 400}", "{112, 368}", "{112, 336}", "{144, 336}", "{176, 336}", "{208, 336}", "{240, 336}", "{272, 336}", "{272, 368}", "{272, 400}", "{272, 432}", "{240, 432}", "{208, 432}", "{176, 432}"];
-        }else if( DeviceType.IS_IPHONE_5 ){
+        }else if( Constants.DeviceType.IS_IPHONE_5 ){
             
             gamePath = ["{48, 432}", "{48, 464}", "{48, 496}", "{80, 496}", "{112, 496}", "{112, 464}", "{112, 432}", "{144, 432}", "{176, 432}", "{208, 432}", "{240, 432}", "{272, 432}", "{272, 464}", "{272, 496}", "{240, 496}", "{208, 496}", "{176, 496}"];
-        }else if( DeviceType.IS_IPHONE_6 ){
+        }else if( Constants.DeviceType.IS_IPHONE_6 ){
             
             gamePath = ["{48, 496}", "{48, 528}", "{48, 560}", "{48, 592}", "{80, 592}", "{112, 592}", "{144, 592}", "{144, 560}", "{144, 528}", "{144, 496}", "{176, 496}", "{208, 496}", "{240, 496}", "{272, 496}", "{304, 496}", "{336, 496}", "{336, 528}", "{336, 560}", "{336, 592}", "{304, 592}", "{272, 592}", "{240, 592}", "{208, 592}"];
-        }else if( DeviceType.IS_IPHONE_6P ){
+        }else if( Constants.DeviceType.IS_IPHONE_6P ){
             
             gamePath = ["{48, 592}", "{48, 624}", "{48, 656}", "{48, 688}", "{80, 688}", "{112, 688}", "{144, 688}", "{144, 656}", "{144, 624}", "{144, 592}", "{176, 592}", "{208, 592}", "{240, 592}", "{272, 592}", "{304, 592}", "{336, 592}", "{368, 592}", "{368, 624}", "{368, 656}", "{368, 688}", "{336, 688}", "{304, 688}", "{272, 688}", "{240, 688}", "{208, 688}"];
         }
@@ -286,7 +286,7 @@ class InstructionsViewController: UIViewController {
     
     func loadStep8(){
         
-        var storyboardName = DeviceIdiom.IS_IPAD ? "Practice" : "Practice_iPhone";
+        var storyboardName = Constants.DeviceIdiom.IS_IPAD ? "Practice" : "Practice_iPhone";
         let storyboard = UIStoryboard(name: storyboardName, bundle: nil);
         let vc         = storyboard.instantiateInitialViewController() as! PracticeViewController;
         
