@@ -1,0 +1,1 @@
+ALTER TABLE game_message_queue ADD COLUMN is_push BOOLEAN DEFAULT FALSE NOT NULL;

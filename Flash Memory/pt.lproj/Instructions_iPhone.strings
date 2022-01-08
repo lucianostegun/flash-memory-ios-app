@@ -1,0 +1,19 @@
+
+/* Class = "UIButton"; normalTitle = "GOT IT"; ObjectID = "91V-Pu-Ghh"; */
+"91V-Pu-Ghh.normalTitle" = "ENTENDI";
+
+/* Class = "UITextView"; text = "Game will start flashing a group of blocks composing a path that you will have to redraw.
+ As higher the level faster the flash will be. So don't miss the first flash or you will need to start over"; ObjectID = "UfQ-BH-Jbd"; */
+"UfQ-BH-Jbd.text" = "O jogo inicia com o piscar de um grupo de blocos que compoe um caminho que deverá ser redesenhado.\n\nQuanto maior o nível do jogo mais rápido eles irão desaparecer. Então não perca a exibição inicial ou terá que começar novamente.";
+
+/* Class = "UIButton"; normalTitle = "BACK"; ObjectID = "Ymm-7W-pdV"; */
+"Ymm-7W-pdV.normalTitle" = "VOLTAR";
+
+/* Class = "UIButton"; normalTitle = "BACK"; ObjectID = "Ymm-7W-pdV"; */
+"Ymm-7W-pdV.disabledTitle" = "VOLTAR";
+
+/* Class = "UIButton"; normalTitle = "MAIN MENU"; ObjectID = "iQZ-DX-OZf"; */
+"iQZ-DX-OZf.normalTitle" = "MENU PRINCPAL";
+
+/* Class = "UIButton"; normalTitle = "MAIN MENU"; ObjectID = "iQZ-DX-OZf"; */
+"iQZ-DX-OZf.disabledTitle" = "MENU PRINCPAL";
